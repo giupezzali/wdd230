@@ -1,0 +1,18 @@
+@media (min-width: 32.5em) {
+    header {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-items: center;
+        padding: 1em;
+    }
+    header h1{
+        font-size: 40px;
+        margin: 0em;
+        justify-self: left;
+    }
+   main{
+       margin: 2em;
+   }
+    
+}
