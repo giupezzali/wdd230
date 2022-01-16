@@ -1,12 +1,13 @@
 main {
-    max-width: 940px;
+    max-width: 900px;
 }
 
 header, footer {
+    text-align: center;
     background-color: #0F192E;
     color: #a8dadc;
-    text-align: center;
 }
+
 
 h3 {
     background-color: #292929;
@@ -40,4 +41,7 @@ a:visited {
 /* mouse over link */
 a:hover {
     color: #ba181b;
+}
+img{
+    width: 400px;
 }

@@ -15,7 +15,7 @@ header, footer{
 }
 
 .portal-title {
-    grid-row: 1/ 2;
+    grid-row: 1/2;
 }
 main nav{
     grid-row: 3/4;

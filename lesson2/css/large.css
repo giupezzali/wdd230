@@ -1,18 +1,18 @@
 @media (min-width: 64em){
     main {
         display:grid;
-        grid-template-columns: 1 /span 9;
+        grid-template-columns: 1/span 9;
     }
     .drumeo {
         grid-area: 1/1/2/3;
-        padding: 7px;
+        padding: 10px;
     }
     .bank {
         grid-area: 1/4/2/6;
-        padding: 7px;
+        padding: 10px;
     }
     .lds {
         grid-area: 1/7/2/9;
-        padding: 7px;
+        padding: 10px;
     }
 }

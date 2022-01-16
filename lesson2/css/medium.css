@@ -1,7 +1,7 @@
 @media (min-width: 32.5em){
     main {
         display:grid;
-        grid-template-columns: 1 /span 3;
+        grid-template-columns: 1/span 3;
     }
     .drumeo {
         grid-area: 1/ 1/ 2/ 2;
