@@ -1,0 +1,43 @@
+main {
+    max-width: 940px;
+}
+
+header, footer {
+    background-color: #0F192E;
+    color: #a8dadc;
+    text-align: center;
+}
+
+h3 {
+    background-color: #292929;
+    color: #CCCCCC;
+    text-align: left;
+    border-radius: 20px 20px 0px 0px;
+    padding: 1.1em;
+    grid-template-rows: 1/2;
+}
+main section {
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    
+}
+h1, h2, h3 {
+    font-family: 'Nunito', Helvetica, sans-serif;
+}
+p {
+    font-family: 'Roboto', Verdana, sans-serif;
+}
+
+/* unvisited link */
+a:link {
+    color: #274c77;
+}
+/* visited link */
+a:visited {
+    color: #022b3a;
+}
+/* mouse over link */
+a:hover {
+    color: #ba181b;
+}

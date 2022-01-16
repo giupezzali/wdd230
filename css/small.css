@@ -11,7 +11,7 @@ p {
 header, footer{
     background-color: #ffc6ff;
     border: 2px solid #6c7074;
-    border-radius: 20px;
+    border-radius: 20px 20px 0px 0px;
 }
 
 .portal-title {
