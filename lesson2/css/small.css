@@ -1,3 +1,6 @@
+body {
+    margin: 20px;
+}
 main {
     max-width: 900px;
 }
@@ -44,4 +47,5 @@ a:hover {
 }
 img{
     width: 400px;
+    justify-self: center;
 }
