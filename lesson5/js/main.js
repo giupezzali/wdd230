@@ -9,13 +9,11 @@ button.addEventListener('click', function() {
     btn.textContent = '❌';
     li.append(btn);
     list.append(li);
-    button.addEventListener('click', deleteLi());
+    btn.addEventListener('click', function() {
+        list.removeChild(li);
+    });
     input.focus();
     input.value = '';
 });
 
-function deleteLi() {
-    const parentLi = (this).parentNode.remove();
-    input.focus();
-}
 
