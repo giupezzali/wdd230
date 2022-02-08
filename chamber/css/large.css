@@ -1,6 +1,6 @@
 @media only screen and (min-width: 64rem) {
 
-    nav button { display: none;}
+    #hamburgerBtn { display: none;}
 
 
     nav ul#primaryNav {
@@ -13,23 +13,32 @@
         border: none;
         border-right: 1px solid rgba(0, 0, 0, 0.3)
     }
+
+    .logo-name h1 {
+        padding: 1em;
+    }
+
     main {
     display: grid;
-    grid-template-columns: repeat(4, 25%);
+    grid-template-columns: repeat(4, 1fr);
     }
     .event {
         grid-column: 1/2;
         grid-row: 1/2;
     }  
-    .hero {
+    .herodiv {
         grid-column: 2/4;
-        grid-row: 1/4;
+        grid-row: 1/2;
+    }
+    .herodiv img {
+        width: 100%;
+        height: 150%;
     }
     .spotlight3{
         display: block;
     }
     .spotlight {
-        grid-column: 4/6;
+        grid-column: 4/5;
         grid-row: 1/6;
 
     }

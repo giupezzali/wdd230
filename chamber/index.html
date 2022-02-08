@@ -27,112 +27,68 @@
 </head>
 <body>
     <header>
-        <p class="date"></p>
+        <section>
+            <p class="date"></p>
+            
+            <!-- //Social media Icons were taken from "https://www.flaticon.es/ -->
+            <section>
+                <a class= "social" target="_blank" href="https://www.facebook.com"><img src="images/facebook.png" alt="facebook logo"></a>
+                <a class="social" target="_blank" href="https://www.linkedin.com/"><img src="images/linked.png" alt="Linkedin logo"></a>
+            </section>
+        </section>
         <section class="logo-name">
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            
             <!-- Logo and name -->
             <img src="images/patagonia-logo.jpeg" alt="Patagonia Chamber Logo">
-                <h1>Patagonia Chamber</h1>
+            <h1>Patagonia Chamber</h1>    
         </section> 
 
         <!-- Navigation Bar -->
         <nav>
-            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
             <ul id="primaryNav">
-                <li class="active"><a href="#">Discover</a></li>
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Discover</a></li>
                 <li><a href="#">Directory</a></li>
                 <li><a href="#">Join</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
-        <section class="social">
-            <!-- //Social media Icons were taken from "https://www.flaticon.es/ -->
-            <a target="_blank" href="https://www.facebook.com"><img src="images/facebook.png" alt="facebook logo"></a>
-            <a target="_blank" href="https://www.linkedin.com/"><img src="images/linked.png" alt="Linkedin logo"></a>
-            </section>
     </header>
 
     <main>
-        <div class="hero">Hero with site name and call to action
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
+        <div class="herodiv">
+            <img src="images/hero-img.jpg" alt="Hero Image">
+            <section class="call-action">
+              <h3>Join the Chamber</h3>
+            </section>
         </div>
-        <div class="event">Event
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
+
+        <div class="event">
+            <h3>Ribbon Cutting</h3>
+            <h4>The Diamond Shack</h4>
+            <p>Join us for the grand opening of The Diamond Shack, Thursday at 1 p.m. <a href="#">More info...</a></p>
         </div>
-        <div class="weather">Weather
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
+
+        <div class="weather">
+            <h3>weather</h3>
+            <p><img src="images/weather.png" alt="weather">17°C°F</p>
         </div>
-        <div class="news">News Release
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
+        <div class="news">
+            <h3>News Release</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a nisl ac magna facilisis sagittis. 
+                Nam scelerisque dolor sit amet eleifend venenatis. Sed suscipit eros rhoncus, sagittis purus vitae, 
+                vehicula nisl. Morbi velit quam, feugiat eu libero consectetur, pulvinar pretium nulla. Vestibulum 
+                vehicula sodales odio, vitae pretium ex sollicitudin sed.</p>
         </div>
         <div class="spotlight">
-            <div>Spotlight 1
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-            </div>
-            <div>Spotlight 2
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-            </div>
-            <div class="spotlight3">Spotlight 3
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-            </div>
+            <img src="images/spotlight1.jpeg" alt="spotlight 1">
+            <img src="images/spotlight2.jpeg" alt="spotlight 2">
+            <img class="spotlight3" src="images/spotlight3.jpeg" alt="spotlight 3">
         </div>
-        <div class="join"> Join
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
+        <div class="join"> 
+            <button type="button">Join Us!</button>
+            <p>Discover how to join the chamber of commerce and how it will benefit your organization!</p>
         </div>
     </main>
     

@@ -1,8 +1,7 @@
 
 body { 
-    max-width: 850px;
+    max-width: 960px;
     margin: 0 auto;
-    padding: 1.1em;
     background-color: #FEFAE0;
 }
 
@@ -10,13 +9,6 @@ body {
 header {
     display: flex;
     flex-wrap: wrap;
-}
-
-.date {
-    font-size: 10vw;
-    font-weight: bold;
-    text-align: center;
-    padding: 1rem;
 }
 
 /* Logo and Title */
@@ -28,34 +20,36 @@ header .logo-name {
     justify-content: center;
 }
 .logo-name img {
-    width: 100px;
+    width: 100%;
+    max-width: 100px;
     height: auto;
     border-radius: 50%;
 }
 .logo-name h1 {
     margin: 20px 0px 20px 0px;
+    font-size: 7vw;
+    padding: 10px;
 }
 
 /* Navigation Bar */
 
 
-nav button {
-    margin: .2rem 2vw;
+#hamburgerBtn {
+    margin: .3rem 2vw;
     background-color: transparent;
     border: none;
     font-size: 2rem;
     color: #FEFAE0;
+    
 }
 
 nav {
     justify-content: flex-start;
     align-items: flex-end;
-    background-color: #283618;
-    padding: 0.75rem;
-    font-size: 0.95rem;
 }
 nav ul {
     list-style-type: none;
+    overflow: hidden;
     padding: 0;
     margin: 0;
 }
@@ -76,6 +70,7 @@ nav ul li.active a {
 
 nav ul li a:hover {
     background-color: #606C38;
+    
 }
 
 nav ul {display: none;}
@@ -89,32 +84,59 @@ nav ul.open {display: block;}
 #hamburgerBtn.open span:nth-child(2) {display: block;}
 
 /* social media imgs */
-header section img {
+.social img {
+    padding: .5rem;
     border-radius: 50% 50%;
-    width: 40px;
+    margin: 0 auto;
+    width: 30px;
     height: auto;
     float: right;
+}
+.date {
+    float: left;
+    font-size: .8em;
 }
 
 header, footer {
     background-color: #DDA15E;
     color:  #283618;
-    padding: 1.1em;
-    align-content: center;
-    justify-content: center;
+    padding: 1em;
     text-align: center;
 }
+
 main div {
     border: 1px solid #283618;
     font-family: 'Merriweather', Garamond, serif;
-    padding: 1rem;
+    text-align: center;
+    /* padding: 1rem; */
     margin: 1rem;
     background-color: #F4E2CD;
 }
-
-.spotlight {
-    padding: 0.5rem;
+.herodiv img {
+    width: 100%;
+    height: auto;
 }
+
+.herodiv {
+    margin: 10px auto; 
+    position: relative;
+}
+
+
+.call-action {
+	position: absolute;
+	top: 50px;
+	right: 50px;
+	background: radial-gradient(#FEFAE0, #606C38);
+	border: 1px solid #283618;
+	padding: 1.5rem;
+	box-shadow: 0 0 30px #333;
+	opacity: .9;
+}
+
+.spotlight img{
+    padding: .5rem;
+} 
 .spotlight3 {
     display: none;
 }
