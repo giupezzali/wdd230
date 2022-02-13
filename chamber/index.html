@@ -27,23 +27,23 @@
 </head>
 <body>
     <header>
-        <section>
-            <p class="date"></p>
-            
-            <!-- //Social media Icons were taken from "https://www.flaticon.es/ -->
-            <section>
-                <a class= "social" target="_blank" href="https://www.facebook.com"><img src="images/facebook.png" alt="facebook logo"></a>
-                <a class="social" target="_blank" href="https://www.linkedin.com/"><img src="images/linked.png" alt="Linkedin logo"></a>
-            </section>
-        </section>
         <section class="logo-name">
             <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
-            
             <!-- Logo and name -->
-            <img src="images/patagonia-logo.jpeg" alt="Patagonia Chamber Logo">
+            <figure class="logo">
+                <img src="images/default-logo.webp" alt="logo"
+                srcset="images/logo1.webp 1x,
+                images/logo2.webp 2x,
+                images/logo3.webp 3x">
+            </figure>
+            <!-- <img src="images/patagonia-logo.webp" alt="Patagonia Chamber Logo"> -->
             <h1>Patagonia Chamber</h1>    
         </section> 
-
+        <section class="social">
+            <a target="_blank" href="https://www.facebook.com"><img src="images/facebook.png" alt="facebook logo"></a>
+            <a target="_blank" href="https://www.linkedin.com/"><img src="images/linked.png" alt="Linkedin logo"></a>
+        </section>
+        <p class="date"></p>
         <!-- Navigation Bar -->
         <nav>
             <ul id="primaryNav">
@@ -58,7 +58,13 @@
 
     <main>
         <div class="herodiv">
-            <img src="images/hero-img.jpg" alt="Hero Image">
+            <picture>
+                <img srcset="images/hero-large.jpg 442w,
+                    images/hero-medium.jpg 550w,
+                    images/hero-small.jpg 560w"
+                    sizes="(max-width:1024px) 442, 550, 560"
+                    src="images/hero-large.jpg" alt="hero image">
+            </picture>
             <section class="call-action">
               <h3>Join the Chamber</h3>
             </section>
@@ -82,8 +88,8 @@
                 vehicula sodales odio, vitae pretium ex sollicitudin sed.</p>
         </div>
         <div class="spotlight">
-            <img src="images/spotlight1.jpeg" alt="spotlight 1">
-            <img src="images/spotlight2.jpeg" alt="spotlight 2">
+            <img class="spotlight1" src="images/spotlight1.jpeg" alt="spotlight 1">
+            <img class="spotlight2" src="images/spotlight2.jpeg" alt="spotlight 2">
             <img class="spotlight3" src="images/spotlight3.jpeg" alt="spotlight 3">
         </div>
         <div class="join"> 
@@ -93,12 +99,20 @@
     </main>
     
     <footer>
-        <img class="patagonia2" src="images/patagonia-logo.jpeg" alt="Patagonia Chamber Logo">
-        <h3>Patagonia Chamber</h3>
-        <p>Neuquén, Argentina Patagonia</p>
-        <a href="#">info.patagoniacoc.com</a>
-        <p>+549 XXX-XXXXXXX</p>
-        <a class="map" href="https://goo.gl/maps/L4zSL68GDLWbJpF49">📍 Location Map</a>
+        <section>
+            <figure class="logo">
+                <img src="images/default-logo.webp" alt="logo"
+                srcset="images/logo1.webp 1x,
+                images/logo2.webp 2x,
+                images/logo3.webp 3x">
+            </figure>
+            <h3>Patagonia Chamber</h3>
+            <p>Neuquén, Argentina Patagonia</p>
+        </section>
+        <section class="information">
+            <a href="#">info.patagoniacoc.com</a>
+            <p>+549 XXX-XXXXXXX</p>
+            <a class="map" href="https://goo.gl/maps/L4zSL68GDLWbJpF49">📍 Location Map</a></section>
         <div>
             <p>&copy;<span id="year"></span> Patagonia Chamber | Giuliana A. Pezzali | WDD 230 Project | Last Modification: <span id="updated"></span></p>
         </div>
