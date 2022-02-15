@@ -7,13 +7,6 @@
     #hamburgerBtn {
         padding: 2rem;
     }
-
-    /* .logo-name img {
-        width: 15%;
-        height: auto;
-        padding: 1em;
-    } */
-    
     .logo-name h1 {
         font-size: 2em;
     }
@@ -38,7 +31,7 @@
         grid-column: 1/6;
         grid-row: 5/6;
         display: grid;
-        grid-template: auto/ repeat (2, 1fr);
+        grid-template: auto/ 1fr 1fr;
     }
     .spotlight1 {
         grid-column: 1;
@@ -62,7 +55,7 @@
         transition: all .3s;
         box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #FEFAE0;
         margin-top: 2rem;
-        }
+    }
 
     button:hover {
     border: 1px solid white;
@@ -105,5 +98,4 @@
     footer div {
         grid-column: 1/3;
     }
-
 }
