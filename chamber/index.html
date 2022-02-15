@@ -30,13 +30,13 @@
         <section class="logo-name">
             <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
             <!-- Logo and name -->
-            <figure class="logo">
-                <img src="images/default-logo.webp" alt="logo"
-                srcset="images/logo1.webp 1x,
-                images/logo2.webp 2x,
-                images/logo3.webp 3x">
-            </figure>
-            <!-- <img src="images/patagonia-logo.webp" alt="Patagonia Chamber Logo"> -->
+            <picture class ="logo">
+                <source srcset="images/logo-medium.webp" media="(min-width:559px)">
+                  <!-- <source srcset="images/logo-large.webp" media="(min-width:1024px)"> -->
+
+                <img src="images/logo-small.webp" alt="logo">
+            </picture>
+           
             <h1>Patagonia Chamber</h1>    
         </section> 
         <section class="social">
@@ -59,11 +59,9 @@
     <main>
         <div class="herodiv">
             <picture>
-                <img srcset="images/hero-large.jpg 442w,
-                    images/hero-medium.jpg 550w,
-                    images/hero-small.jpg 560w"
-                    sizes="(max-width:1024px) 442, 550, 560"
-                    src="images/hero-large.jpg" alt="hero image">
+                <source srcset="images/hero-medium.jpg" media="(min-width:559px) and (max-width: 1023px)">
+                  <source srcset="images/hero-large.jpg" media="(min-width:1024px)">
+                <img src="images/hero-small.jpg" alt="Hero"> 
             </picture>
             <section class="call-action">
               <h3>Join the Chamber</h3>
@@ -78,7 +76,11 @@
 
         <div class="weather">
             <h3>weather</h3>
-            <p><img src="images/weather.png" alt="weather">17°C°F</p>
+            <section>
+                <p>Currently: <span id="temperature">30</span>°F</p>
+                <p>Wind Speed: <span id="speed">10</span>mph</p>
+                <p> WindChill: <span id="wind"></span></p>
+            </section>
         </div>
         <div class="news">
             <h3>News Release</h3>
@@ -88,9 +90,21 @@
                 vehicula sodales odio, vitae pretium ex sollicitudin sed.</p>
         </div>
         <div class="spotlight">
-            <img class="spotlight1" src="images/spotlight1.jpeg" alt="spotlight 1">
-            <img class="spotlight2" src="images/spotlight2.jpeg" alt="spotlight 2">
-            <img class="spotlight3" src="images/spotlight3.jpeg" alt="spotlight 3">
+            <picture class="spotlight1">
+                <source srcset="images/spotlight1-medium.jpg" media="(min-width:559px) and (max-width: 1023px)">
+                  <source srcset="images/spotlight1-large.jpg" media="(min-width:1024px)">
+                <img src="images/spotlight1-small.jpg" alt="spotlight1"> 
+            </picture>
+            <picture class="spotlight2">
+                <source srcset="images/spotlight2-medium.jpg" media="(min-width:559px) and (max-width: 1023px)">
+                  <source srcset="images/spotlight2-large.jpg" media="(min-width:1024px)">
+                <img src="images/spotlight2-small.jpeg" alt="spotlight2"> 
+            </picture>
+            <picture class="spotlight3">
+                <source srcset="images/spotlight3-medium.jpg" media="(min-width:559px) and (max-width: 1023px)">
+                  <source srcset="images/spotlight3-large.jpg" media="(min-width:1024px)">
+                <img src="images/spotlight3-small.jpg" alt="spotlight3"> 
+            </picture>
         </div>
         <div class="join"> 
             <button type="button">Join Us!</button>
@@ -100,12 +114,10 @@
     
     <footer>
         <section>
-            <figure class="logo">
-                <img src="images/default-logo.webp" alt="logo"
-                srcset="images/logo1.webp 1x,
-                images/logo2.webp 2x,
-                images/logo3.webp 3x">
-            </figure>
+            <picture class ="logo">
+                <source srcset="images/logo-medium.webp" media="(min-width:559px)">
+                <img src="images/logo-small.webp" alt="logo">
+            </picture>
             <h3>Patagonia Chamber</h3>
             <p>Neuquén, Argentina Patagonia</p>
         </section>
@@ -118,6 +130,7 @@
         </div>
     </footer>
     <script src="js/main.js"></script>
+    <script src="js/windchill.js"></script>
     
 </body>
 </html>
