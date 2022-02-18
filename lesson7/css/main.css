@@ -1,0 +1,28 @@
+body {
+    background-color: navy;
+}
+main {
+    margin: 40px auto;
+	max-width: 700px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+header {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+img [data-src]{
+    filter: blur(0.2em);
+}
+
+img{
+    border-radius: 25px;
+    border: 2px solid grey;
+    margin: 1rem;
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
