@@ -111,6 +111,13 @@ main div {
     margin: .5rem;
     background-color: #F4E2CD;
 }
+#banner {
+    text-align: center;
+    box-shadow: 20px 20px 15px grey;
+    padding: 1em;
+    margin: 1em;
+    background: rgb(219, 250, 201);
+}
 
 .herodiv{
     position: relative;
