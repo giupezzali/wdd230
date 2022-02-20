@@ -12,9 +12,11 @@
     }
     
     nav {
-        background-color: #283618;
+        background-color: rgb(52, 70, 32);
     }
-    
+    nav li {
+        border-left: 1px solid black;
+    }
     main {
         display: grid;
         grid-template-columns: repeat(5, 1fr);
@@ -98,4 +100,15 @@
     footer div {
         grid-column: 1/3;
     }
+    /* Discover */
+    .discover-main {
+        padding: 2em;
+    }
+    .discover-main img {
+        box-shadow: 0 0 30px #333;
+    }
+
+    .discover-main img:hover {
+        border-radius: 30%;
+       }
 }

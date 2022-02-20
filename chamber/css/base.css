@@ -64,7 +64,7 @@ nav ul li a {
 
 nav ul li.active a {
     background-color: rgba(0, 0, 0, 0.2);
-    color: #d67c14;
+    color: #DDA15E;
 }
 
 nav ul li a:hover {
@@ -94,7 +94,7 @@ nav ul.open {display: block;}
     font-size: .8em;
     margin-bottom: 1rem;
     padding: 0.5rem;
-    background-color: #d3aa7b;
+    background-color: #d49c5c;
 }
 
 header, footer {
@@ -158,4 +158,19 @@ footer img {
 footer div {
     border-top: 1px solid #F4E2CD;
     padding: 1rem;
+}
+
+/* Discover */
+
+.discover-main {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    margin: 1.1em;
+}
+.discover-main picture img {
+    width: 300px;
+    height: auto;
 }

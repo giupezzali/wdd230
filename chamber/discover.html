@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+    <title> Discover | Patagonia Chamber | Chamber of Commerce</title>
+</head>
+<body>
+    <header>
+        <section class="logo-name">
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            <!-- Logo and name -->
+            <picture class ="logo">
+                <source srcset="images/logo-medium.webp" media="(min-width:559px)">
+                  <!-- <source srcset="images/logo-large.webp" media="(min-width:1024px)"> -->
+
+                <img src="images/logo-small.webp" alt="logo">
+            </picture>
+           
+            <h1>Patagonia Chamber</h1>    
+        </section> 
+        <section class="social">
+            <a target="_blank" href="https://www.facebook.com"><img src="images/facebook.png" alt="facebook logo"></a>
+            <a target="_blank" href="https://www.linkedin.com/"><img src="images/linked.png" alt="Linkedin logo"></a>
+        </section>
+            
+        <p class="date"></p>
+        <!-- Navigation Bar -->
+        <nav>
+            <ul id="primaryNav">
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="discover.html">Discover</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="discover-main">
+        <picture><img loading="lazy" src="images/1discover-valley-train.webp" alt="Valley Train"></picture>
+        <p> The <strong >Valley train</strong> has been in operation since 2015. It unites the provinces of 
+            Río Negro and Neuquén, helping bring people from the surrounding area closer together and providing
+             them with more opportunities to participate in events and instances to share their work. It's 
+             expected the train to extend its route in the next two years.</p>
+        <picture><img loading="lazy" src="images/2discover-municipality.webp" alt="Neuquén Municipality"></picture>
+        <p> The <strong>Municipality of Neuquén</strong> currently has a job placement program that supports small, 
+            medium, and large companies and trains people who seek to start their own business, generating more job
+            opportunities and progress.</p>
+        <picture><img loading="lazy" src="images/3discover-fair.webp" alt="Central Park Fair"></picture>
+        <p>Next to Central Park is the <strong>Central Fair</strong>, where local merchants gather to offer their products. The fair
+             gathers more than 3,000 people every Saturday, making this fair one of the most attractive for merchants.</p>
+        <picture><img loading="lazy" src="images/4discover-fair-2.webp" alt="Central Park Fair"></picture>
+        <p> Among the products offered at the <strong>central fair</strong> are fruits and vegetables from the area, processed foods, and handicrafts.</p>
+        <picture><img loading="lazy" src="images/6discover-monument.webp" alt="Saint Martin monument"></picture>
+        <p>The <strong>Saint Martin monument</strong> is in the center of the city. It is considered a point of encounter for tourists and citizens. 
+            Also, this monument is a point for demonstrations and cultural events.</p>
+        <picture><img loading="lazy" src="images/5discover-neuquen-city.webp" alt="Aerial view of Argentina avenue"></picture>
+        <p>The <strong>Argentine Avenue</strong> is considered the heart of the city of Neuquén.  As we cross the Argentine avenue, 
+            we come across monuments and attractions, including the <em>artisan fair.</em></p>
+        <picture><img loading="lazy" src="images/7discover-handicrafts.webp" alt="Artisan fair"></picture>
+        <p>The <strong>artisan fair</strong> is located in the center of Neuquen city and brings together artisans from 
+            Patagonia. With 120 stalls and street shows, it becomes a perfect opportunity for entrepreneurs.</p>
+        <picture><img loading="lazy" src="images/8discover-fair.webp" alt="crafts fair"></picture>
+        <p>In the stalls of the <strong>artisan fair</strong>, we can find products made with silver, stone, leather, ceramics, 
+            among other materials, creating unique handcrafted pieces characteristic of Patagonia.</p>
+        <picture><img loading="lazy" src="images/9discover-aerial-view.webp" alt="Aerial view of the city of Neuquén"></picture>
+        <p>The <strong>Neuquen city</strong> is full of opportunities for people who want to start their own business and those
+            who want to grow. <strong>What are you waiting to join us!</strong></p>    
+    
+    </main>
+
+    <footer>
+        <section>
+            <picture class ="logo">
+                <source srcset="images/logo-medium.webp" media="(min-width:559px)">
+                <img src="images/logo-small.webp" alt="logo">
+            </picture>
+            <h3>Patagonia Chamber</h3>
+            <p>Neuquén, Argentina Patagonia</p>
+        </section>
+        <section class="information">
+            <a href="#">info.patagoniacoc.com</a>
+            <p>+549 XXX-XXXXXXX</p>
+            <a class="map" href="https://goo.gl/maps/L4zSL68GDLWbJpF49">📍 Location Map</a></section>
+        <div>
+            <p>&copy;<span id="year"></span> Patagonia Chamber | Giuliana A. Pezzali | WDD 230 Project | Last Modification: <span id="updated"></span></p>
+        </div>
+        <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="js/local-storage.js"></script>
+</body>
+</html>

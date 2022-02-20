@@ -4,15 +4,22 @@
         grid-template-columns: 1fr 1fr;
         align-items: center;
         justify-items: center;
-        padding: 1em;
     }
     header h1{
-        font-size: 40px;
+        font-size: 30px;
         margin: 0em;
         justify-self: left;
     }
+    img {
+        width: 125px;
+        margin: 0;
+        padding: 0;
+    };
    main{
        margin: 2em;
+   }
+   .discover-main img:hover {
+    box-shadow: 0 0 50px #333;
    }
     
 }
