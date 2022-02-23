@@ -174,11 +174,3 @@ footer div {
     width: 300px;
     height: auto;
 }
-.discover-main img [data-src]{
-    filter: blur(0.2em);
-}
-
-.discover-main img{
-    filter: blur(0em);
-    transition: filter 0.5s;
-}
