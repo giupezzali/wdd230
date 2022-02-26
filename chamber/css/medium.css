@@ -104,11 +104,11 @@
     .discover-main {
         padding: 2em;
     }
-    .discover-main img {
+    .discover-main picture img {
         box-shadow: 0 0 30px #333;
     }
 
-    .discover-main img:hover {
+    .discover-main picture img:hover {
         border-radius: 30%;
        }
 }
