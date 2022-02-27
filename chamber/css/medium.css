@@ -111,4 +111,38 @@
     .discover-main picture img:hover {
         border-radius: 30%;
        }
+
+
+    /* join */
+    
+    .join-main form{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        max-width: 750px;
+    }
+
+    .p-inf {
+        grid-column: 1;
+        grid-row: 1/2;
+        text-align: center;
+    }  
+
+    fieldset.membership {
+        grid-column: 2;
+        grid-row: 1/5;
+        width: 300px;
+        text-align: center;
+    }
+    #submitBtn {
+        grid-column: 2;
+        margin-left: 2.5em;
+    } 
+    /* thank you */
+    main.thanku {
+        padding: 1.1em;
+        display: flex;
+    }
+    section.thanks {
+        padding: 3em;
+    }
 }

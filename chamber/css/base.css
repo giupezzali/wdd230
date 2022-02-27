@@ -170,7 +170,56 @@ footer div {
     text-align: justify;
     margin: 1.1em;
 }
-.discover-main picture img {
+.discover-main div picture img {
     width: 300px;
     height: auto;
+}
+.discover-main div {
+    padding: 2em;
+}
+
+.join-main picture img {
+    display: none;
+}
+span.cost {
+    background-color: lightblue;
+    color: #283618;
+    padding: .5em;
+    margin: 2em;
+    border-radius: 20px;
+}
+form {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+form fieldset {
+    margin: 1em;
+    padding: 1em;
+    border-radius: 10px;
+    font-size: 17px;
+}
+.p-inf {
+    text-align: center;
+    background-color: rgb(225, 243, 250);
+}  
+.membership{
+    text-align: center;
+    background-color: rgb(225, 243, 250);
+}
+#submitBtn {
+    grid-column: 2;
+    text-align: center;
+    padding: .7em;
+    border-radius: 20px;
+    margin-bottom: 1em;
+} 
+
+/* Thank you */
+main.thanku {
+    padding: 1.1em;
+    display: block;
+    text-align: center;
+}
+picture.tu-img img{
+    padding: 1rem;
+    box-shadow: 0 0 30px #333;
 }

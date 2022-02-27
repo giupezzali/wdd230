@@ -1,13 +1,20 @@
-// initialize display elements
-const todayDisplay = document.querySelector(".today");
-const visitsDisplay = document.querySelector(".visits");
+const lastVisit = localStorage.getItem('lastVisit');
 
-let numVisits = Number(window.localStorage.getItem("visits-ls"));
+const FACTOR = 1000 * 60 * 60 * 24;
 
-if (numVisits !== 0) {
-	visitsDisplay.textContent = numVisits;
+let daysBetween = Date.now() - lastVisit;
+
+let numberOfDays = Math.round(daysBetween / FACTOR);
+// let numberOfDays = daysBetween;
+
+console.log(numberOfDays);
+
+const daysSince = document.querySelector('#lastvisit');
+
+if (lastVisit == null) {
+    daysSince.innerHTML = `This is your first visit!`
+} else {
+    daysSince.innerHTML = `Last visit: ${numberOfDays} days ago`
 }
 
-numVisits++;
-
-localStorage.setItem("visits-ls", numVisits);
+localStorage.setItem('lastVisit', Date.now());

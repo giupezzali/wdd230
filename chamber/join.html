@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Giuliana Pezzali">
+    <meta name="description" content="Chamber of commerce project from the BYU-Idaho course WDD 230: Web Frontend Development I.">
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!--Style Sheets-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <!-- Phone - default -->
+    <link rel="stylesheet" href="css/base.css">
+    <!-- Tablet -->
+    <link rel="stylesheet" href="css/medium.css">
+    <!-- wide desktop -->
+    <link rel="stylesheet" href="css/large.css">
+    
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&display=swap" rel="stylesheet">
+    
+    <title> Join | Patagonia Chamber | Chamber of Commerce </title>
+</head>
+<body>
+    <header>
+        <section class="logo-name">
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            <!-- Logo and name -->
+            <picture class ="logo">
+                <source srcset="images/logo-medium.webp" media="(min-width:559px)">
+                  <!-- <source srcset="images/logo-large.webp" media="(min-width:1024px)"> -->
+
+                <img src="images/logo-small.webp" alt="logo">
+            </picture>
+           
+            <h1>Patagonia Chamber</h1>    
+        </section> 
+        <section class="social">
+            <a target="_blank" href="https://www.facebook.com"><img src="images/facebook.png" alt="facebook logo"></a>
+            <a target="_blank" href="https://www.linkedin.com/"><img src="images/linked.png" alt="Linkedin logo"></a>
+        </section>
+        <p class="date"></p>
+        <!-- Navigation Bar -->
+        <nav>
+            <ul id="primaryNav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="#">Directory</a></li>
+                <li class="active"><a href="join.html">Join</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="join-main">
+        <picture class="join-img"><img loading="lazy" src="images/join-building.webp" alt="Building"></picture>
+        <form method="get" action="thankyou.html">
+            <fieldset class="p-inf">
+                <h3>Personal information</h3>
+                <label>First name*<input type="text" name="name" id="name" required></label><br>
+                <label>Last name* <input type="text" name="last_name" id="last_name" required></label>
+                <label>Business position title:<input type="text" name="bpossition" id="bpossition" required pattern="[A-Za-z\s-]{7,}" minlength="7"></label><br>
+                <label>Email* <input type="email" id="email" name="email" required placeholder="example@email.com"></label><br>
+                <label> Cell phone Number* <input type="tel" id="cellphone" name="cellphone" required></label>
+                <label> Business Name Title* <input type="text" id="bname" name="bname" required></label>
+                <label>Business Description <br><textarea rows="4" name="bus-description"></textarea></label>
+            </fieldset>
+            
+            <fieldset class="membership">
+                <h3>Select a membership</h3>
+                <label for=""><input type="radio" name="membership" value="np"><span>Non Profit</span><span class="cost">Free</span><p>Be part of our community. Join us now to be updated and meet other businesses like yours!</p></label>
+                <label for=""><input type="radio" name="membership" value="bronze"><span>Bronze</span><span class="cost">$200</span><p>Bronze membership benefits you with discount tickets for events in Patagonia and unites you with other entrepreneurs in your field.</p></label>
+                <label for=""><input type="radio" name="membership" value="silver"><span>Silver</span><span class="cost">$500</span><p>The Silver membership is perfect for those who search for training and improvement. We will give you tools to improve your business and network and discount events around Patagonia.</p></label>
+                <label for=""><input type="radio" name="membership" value="gold"><span>Gold</span><span class="cost">$1000</span><p>With the Golden membership, You will have everything to take your business to another level. From free tickets to all the events, advertising to opportunities for training and learning.</p></label>
+            </fieldset>
+
+            <label for=""><input type="hidden" id="hdate" name="hdate" value=""></label>
+            <input type="submit" id="submitBtn" value="Join Us!" >
+        
+        </form> 
+       
+
+
+    </main>
+    <footer>
+        <section>
+            <picture class ="logo">
+                <source srcset="images/logo-medium.webp" media="(min-width:559px)">
+                <img src="images/logo-small.webp" alt="logo">
+            </picture>
+            <h3>Patagonia Chamber</h3>
+            <p>Neuquén, Argentina Patagonia</p>
+        </section>
+        <section class="information">
+            <a href="#">info.patagoniacoc.com</a>
+            <p>+549 XXX-XXXXXXX</p>
+            <a class="map" href="https://goo.gl/maps/L4zSL68GDLWbJpF49">📍 Location Map</a></section>
+        <div>
+            <p>&copy;<span id="year"></span> Patagonia Chamber | Giuliana A. Pezzali | WDD 230 Project | Last Modification: <span id="updated"></span></p>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>

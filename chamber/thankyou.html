@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Giuliana Pezzali">
+    <meta name="description" content="Chamber of commerce project from the BYU-Idaho course WDD 230: Web Frontend Development I.">
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!--Style Sheets-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <!-- Phone - default -->
+    <link rel="stylesheet" href="css/base.css">
+    <!-- Tablet -->
+    <link rel="stylesheet" href="css/medium.css">
+    <!-- wide desktop -->
+    <link rel="stylesheet" href="css/large.css">
+    
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&display=swap" rel="stylesheet">
+    
+    <title> Join | Patagonia Chamber | Chamber of Commerce </title>
+</head>
+<body>
+    <header>
+        <section class="logo-name">
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            <!-- Logo and name -->
+            <picture class ="logo">
+                <source srcset="images/logo-medium.webp" media="(min-width:559px)">
+                  <!-- <source srcset="images/logo-large.webp" media="(min-width:1024px)"> -->
+
+                <img src="images/logo-small.webp" alt="logo">
+            </picture>
+           
+            <h1>Patagonia Chamber</h1>    
+        </section> 
+        <section class="social">
+            <a target="_blank" href="https://www.facebook.com"><img src="images/facebook.png" alt="facebook logo"></a>
+            <a target="_blank" href="https://www.linkedin.com/"><img src="images/linked.png" alt="Linkedin logo"></a>
+        </section>
+        <p class="date"></p>
+        <!-- Navigation Bar -->
+        <nav>
+            <ul id="primaryNav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="#">Directory</a></li>
+                <li class="active"><a href="join.html">Join</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="thanku">
+        <picture class="tu-img"><img src="images/thanku.webp" alt="goose watching an Alfajor"></picture>
+        <section class="thanks"> 
+            <h2>Thank you for joining to Patagonia Chamber!</h2>
+            <p>Welcome!! we are happy to have you as a part of our community and can't wait to grow with you!</p>
+        </section>
+        
+    </main>
+    <footer>
+        <section>
+            <picture class ="logo">
+                <source srcset="images/logo-medium.webp" media="(min-width:559px)">
+                <img src="images/logo-small.webp" alt="logo">
+            </picture>
+            <h3>Patagonia Chamber</h3>
+            <p>Neuquén, Argentina Patagonia</p>
+        </section>
+        <section class="information">
+            <a href="#">info.patagoniacoc.com</a>
+            <p>+549 XXX-XXXXXXX</p>
+            <a class="map" href="https://goo.gl/maps/L4zSL68GDLWbJpF49">📍 Location Map</a></section>
+        <div>
+            <p>&copy;<span id="year"></span> Patagonia Chamber | Giuliana A. Pezzali | WDD 230 Project | Last Modification: <span id="updated"></span></p>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
