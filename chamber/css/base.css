@@ -223,3 +223,8 @@ picture.tu-img img{
     padding: 1rem;
     box-shadow: 0 0 30px #333;
 }
+
+p.visit {
+    margin-top: 0;
+    text-align: center;
+}

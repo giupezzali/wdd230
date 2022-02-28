@@ -145,4 +145,7 @@
     section.thanks {
         padding: 3em;
     }
+    footer p.visit {
+        grid-column: 1/3;
+    }
 }

@@ -1,20 +1,15 @@
-const lastVisit = localStorage.getItem('lastVisit');
-
+const lastvisit_text = window.localStorage.getItem('lastvisit');
+if(lastvisit_text === undefined) {
+    lastvisit_text = new Date(Data.now());
+}
+const lastvisit = Date.parse(lastvisit_text);
 const FACTOR = 1000 * 60 * 60 * 24;
 
-let daysBetween = Date.now() - lastVisit;
 
-let numberOfDays = Math.round(daysBetween / FACTOR);
-// let numberOfDays = daysBetween;
+let daysbetween = Date.now() - lastvisit;
+let numberOfDays = daysbetween / FACTOR;
 
-console.log(numberOfDays);
+window.localStorage.setItem('lastvisit', new Date(Date.now()));
 
-const daysSince = document.querySelector('#lastvisit');
-
-if (lastVisit == null) {
-    daysSince.innerHTML = `This is your first visit!`
-} else {
-    daysSince.innerHTML = `Last visit: ${numberOfDays} days ago`
-}
-
-localStorage.setItem('lastVisit', Date.now());
+const daysSinceVisit = Math.floor(numberOfDays);
+document.getElementById('lastvisit').textContent = daysSinceVisit;
