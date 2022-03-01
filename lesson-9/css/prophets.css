@@ -26,6 +26,7 @@ img {
     height: 296px;
     box-shadow: 0 0 10px #a98307;
     border: 1px solid #e9ecef;
+    margin: 1em 0;
 }
 h1, h2, p {
     color: #e9ecef;
@@ -35,4 +36,7 @@ h1, h2, p {
 footer {
     text-align: center;
     color: #e9ecef;
+}
+p {
+    margin: 0;
 }
