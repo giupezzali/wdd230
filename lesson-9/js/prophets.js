@@ -17,8 +17,8 @@ function displayProphets(prophet) {
     let card = document.createElement('section');
     let h2 = document.createElement('h2');
     let portrait = document.createElement('img');
-    let bdate = document.createElement('h4');
-    let bplace = document.createElement('h4');
+    let bdate = document.createElement('p');
+    let bplace = document.createElement('p');
   
     // Change the textContent property of the h2 element to contain the prophet's full name
     h2.textContent = `${prophet.name} ${prophet.lastname}`;
