@@ -130,13 +130,20 @@
     fieldset.membership {
         grid-column: 2;
         grid-row: 1/5;
-        width: 300px;
+        width: 290px;
         text-align: center;
     }
     #submitBtn {
         grid-column: 2;
         margin-left: 2.5em;
+        box-shadow: 0 0 30px #333;
     } 
+    form fieldset {
+        box-shadow: 0 0 30px #333;
+    }
+    .join-img img{
+        box-shadow: 0 0 30px #333;
+    }
     /* thank you */
     main.thanku {
         padding: 1.1em;

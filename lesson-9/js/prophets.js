@@ -20,12 +20,24 @@ function displayProphets(prophet) {
     let bplace = document.createElement('p');
     let portrait = document.createElement('img');
   
+    let order = ``;
+
+    if (prophet.order === 1){
+      order = `${prophet.order}st`;
+    } else if (prophet.order === 2){
+      order = `${prophet.order}nd`;
+    } else if (prophet.order === 3){
+      order = `${prophet.order}rd`;
+    } else {
+      order = `${prophet.order}th`;
+    }
+
     // Change the textContent property of the h2 element to contain the prophet's full name
     h2.textContent = `${prophet.name} ${prophet.lastname}`;
   
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
     portrait.setAttribute('src', prophet.imageurl);
-    portrait.setAttribute('alt', `Portait of ${prophet.name} ${prophet.lastname} - ${prophet.order}th Latter-day President`);
+    portrait.setAttribute('alt', `Portait of ${prophet.name} ${prophet.lastname} - ${order} Latter-day President`);
     portrait.setAttribute('loading', 'lazy');
   
     bdate.textContent = `Date of Birth: ${prophet.birthdate}`;
