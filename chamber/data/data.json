@@ -1,0 +1,88 @@
+{
+    "companies": [
+        {
+            "name": "Spices Paradise",
+            "address": "argentinian avenue 240, Neuquén",
+            "phone": "+549-299-483-XXXX",
+            "website": "spicesparadise.net",
+            "logo": "dataimages/business1.webp"
+        },
+        {
+            "name": "Flor de Luna",
+            "address": "San Martín 4300, Neuquén",
+            "phone": "+549-299-498-XXXX",
+            "website": "flordeluna.net",
+            "logo": "dataimages/business2.webp"
+        },
+        {
+            "name": "Ecco Farms",
+            "address": "General Roca 1200, Plottier",
+            "phone": "+549-299-543-XXXX",
+            "website": "eccofarms.com",
+            "logo": "dataimages/business3.webp"
+        },
+        {
+            "name": "OliveBranch",
+            "address": "La Rioja 430, Neuquén",
+            "phone": "+549-299-123-XXXX",
+            "website": "oliveclothes.com",
+            "logo": "dataimages/business4.webp"
+        },
+        {
+            "name": "Norte Lindo",
+            "address": "Jujuy Street 240, Neuquén",
+            "phone": "+549-299-234-XXXX",
+            "website": "minortelindo.com",
+            "logo": "dataimages/business5.webp"
+        },
+        {
+            "name": "Made with Love",
+            "address": "La Pampa 2800, Senillosa",
+            "phone": "+549-299-345-XXXX",
+            "website": "lovehandicrafts.com",
+            "logo": "dataimages/business6.webp"
+        },
+        {
+            "name": "Homemade Crunch",
+            "address": "Hipolito Yrigoyen 240, Cipolletti",
+            "phone": "+549-299-443-XXXX",
+            "website": "homemadecrunch.com",
+            "logo": "dataimages/business7.webp"
+        },
+        {
+            "name": "Patagonian Meat",
+            "address": "Alem Avenue 8400, Cipolletti",
+            "phone": "+549-299-483-XXXX",
+            "website": "pmeatstore.com",
+            "logo": "dataimages/business8.webp"
+        },
+        {
+            "name": "The Strong Seed",
+            "address": "Chile 294, Neuquén",
+            "phone": "+549-299-567-XXXX",
+            "website": "strongseeds.com",
+            "logo": "dataimages/business9.webp"
+        },
+        {
+            "name": "Blue Cotton",
+            "address": "Brasil 783, Plottier",
+            "phone": "+549-299-678-XXXX",
+            "website": "bluecottoncandy.net",
+            "logo": "dataimages/business10.webp"
+        },
+        {
+            "name": "Jasmine Fruits",
+            "address": "argentinian avenue 9000, Neuquén",
+            "phone": "+549-299-789-XXXX",
+            "website": "jasminefruits.com",
+            "logo": "dataimages/business11.webp"
+        },
+        {
+            "name": "Red Swan",
+            "address": "San Juan 234, Senillosa",
+            "phone": "+549-299-890-XXXX",
+            "website": "redswanmusic.com",
+            "logo": "dataimages/business12.webp"
+        }
+    ]
+}
