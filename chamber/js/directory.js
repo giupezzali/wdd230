@@ -20,7 +20,7 @@ function displayCompanies(company) {
     let phone = document.createElement('p');
     let website = document.createElement('p');
 
-    logo.setAttribute('src', company.logo);
+    logo.setAttribute('src', `${company.logo}`);
     logo.setAttribute('alt', `${company.name}'s logo`);
     logo.setAttribute('loading', 'lazy');
 
@@ -34,7 +34,7 @@ function displayCompanies(company) {
     card.appendChild(address);
     card.appendChild(phone);
     card.appendChild(website);
-    
+
     cards.appendChild(card);
 
 }

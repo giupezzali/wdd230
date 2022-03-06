@@ -230,18 +230,13 @@ p.visit {
 }
 
 /* directory */
-
-.directory-main div.busdata {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-gap: .5em;
-    padding: 0.25em;
+.busdata section {
+    margin: 1em;
 }
 
-.busdata section {
-    margin: 0.25rem;
-    padding: 0.35rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.busdata img {
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 0 0 30px #333;
+    border: 1px solid #e9ecef;
 }
