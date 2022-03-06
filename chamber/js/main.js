@@ -22,31 +22,3 @@ document.querySelector('#year').textContent = currentDate.getFullYear();
 let oLastModif = document.lastModified;
 document.getElementById('updated').innerHTML = oLastModif;
 
-const weekDay = now.getDay();
-
-let banner = document.querySelector('#banner')
-
-if (weekDay == 1 || weekDay == 2) {
-    banner.style.display = 'block';
-}
-else {
-    banner.style.display = 'none';
-}
-
-//Join.html Hidden Button
-
-const d = new Date();
-
-function currentDateH () {
-  const datetime = "loaded: " + d.getDate() + "/"
-	+ (d.getMonth()+1)  + "/"
-	+ d.getFullYear() + " || "
-	+ d.getHours() + ":"
-	+ d.getMinutes() + ":"
-	+ d.getSeconds();
-console.log(datetime)
-document.getElementById("hdate").value = datetime
-}
-
-const submitBtn = document.getElementById("submitBtn");
-submitBtn.addEventListener("click", currentDateH);
