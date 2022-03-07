@@ -17,7 +17,7 @@
     nav li {
         border-left: 1px solid black;
     }
-    main {
+    .index-main {
         display: grid;
         grid-template-columns: repeat(5, 1fr);
     }
@@ -157,18 +157,12 @@
     }
     /* directory */
 
-.directory-main div.busdata {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-gap: .5em;
-    padding: 0.25em;
-}
 
-.busdata section {
-    margin: 0.25rem;
-    padding: 0.35rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+    #directory-main .busdata section {
+        margin: 0.25rem;
+        padding: 0.35rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }

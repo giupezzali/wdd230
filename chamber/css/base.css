@@ -230,13 +230,29 @@ p.visit {
 }
 
 /* directory */
-.busdata section {
+#directory-main .busdata section {
     margin: 1em;
+    border: 1px solid #2c3d19;
+    box-shadow: 0 0 30px #333;
 }
-
-.busdata img {
+#directory-main .busdata section p {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#directory-main .busdata img {
     width: 150px;
     border-radius: 50%;
     box-shadow: 0 0 30px #333;
     border: 1px solid #e9ecef;
+    margin: 1em;
+}
+main#directory-main div {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: .5em;
+    padding: 0.3em;
+    border: none;
+}
+#directory-main h2 {
+    text-align: center;
 }

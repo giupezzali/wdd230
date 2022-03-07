@@ -1,5 +1,5 @@
-const now = new Date();
-const weekDay = now.getDay();
+const current = new Date();
+const weekDay = current.getDay();
 
 let banner = document.querySelector('#banner')
 
