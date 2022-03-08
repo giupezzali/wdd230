@@ -77,20 +77,23 @@
         display: grid;
         grid-template-columns: 50% 50%;
         grid-gap: 1em;
-        text-align: justify;
     }
 
     /* Join */
+    .join-main {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
     .join-main picture img {
         display: block;
-        margin: 1em 1.1em;
-        margin-right: 1.4em;
+        margin: 1em;
+        margin-right: 1.5em;
         border-radius: 20px;
         border: 2px solid grey;
     }
     form fieldset {
-        margin: 1em 0;
-        padding: 0.7em;
+        margin: 1em;
+        padding: 0.5em;
     }
     fieldset.p-inf {
         width: 240px;

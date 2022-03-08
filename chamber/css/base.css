@@ -38,8 +38,7 @@ header .logo-name, footer .logo{
     background-color: transparent;
     border: none;
     font-size: 2rem;
-    color: #FEFAE0;
-    
+    color: #283618;  
 }
 
 nav {
@@ -159,6 +158,10 @@ footer div {
     border-top: 1px solid #F4E2CD;
     padding: 1rem;
 }
+footer a:link {
+    color: rgb(2, 2, 49);
+    font-size: 1.1em;
+}
 
 /* Discover */
 
@@ -206,11 +209,10 @@ form fieldset {
     background-color: rgb(225, 243, 250);
 }
 #submitBtn {
-    grid-column: 2;
     text-align: center;
     padding: .7em;
     border-radius: 20px;
-    margin-bottom: 1em;
+    margin: 1em;
 } 
 
 /* Thank you */
