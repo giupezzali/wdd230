@@ -232,10 +232,15 @@ p.visit {
 }
 
 /* directory */
+#directory-main{
+    background-color: #F4E2CD;
+}
+
 #directory-main .busdata section {
     margin: 1em;
     border: 1px solid #2c3d19;
     box-shadow: 0 0 30px #333;
+    padding: 1.1em;
 }
 #directory-main .busdata section p {
     margin: 0;
@@ -248,32 +253,72 @@ p.visit {
     border: 1px solid #e9ecef;
     margin: 1em;
 }
-main#directory-main div {
+#directory-main div.grid{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: .5em;
     padding: 0.3em;
     border: none;
 }
-#directory-main h2 {
-    text-align: center;
+
+#directory-main .list {
+	display: flex;
+	flex-direction: column;
 }
 
-#directory-main button.btn{
-    font-family: 'Open Sans', sans-serif;
-    padding: 10px 30px;
-    text-transform: uppercase;
-    border: none;
-    background-color: #eee;
-    border-radius: 5px;
-    outline: none;
+#directory-main .list section {
+	display: flex;
+	align-items: center;
 }
-#directory-main button.btn:hover{
-    background-color: #aaa;
+
+#directory-main .grid section {
+	flex-direction: column;
+	text-align: center;
 }
-#directory-main button.active
-, #directory-main button.active:hover{
-    color: #fff;
+
+#directory-main .grid section > * {
+	margin: 0.1rem;
+}
+
+#directory-main .list section > * {
+	margin: 0 1rem;
+	text-align: left;
+}
+
+#directory-main .list section img {
+	display: none; 
+}
+
+#directory-main h2 {
+    text-align: center;
+    padding: 1em;
+    background-color: #d49c5c;
+    border-radius: 10px;
+}
+#directory-main button{
+    padding: 1em;
+    font-size: 1.1em;
+    border: 2px solid green;
     background-color: #333;
+    color: white;
+    border-radius: 5px;
+    background-color: white;
+    color: #000;
+    margin: .2em;
+  }
+  #directory-main button#list {
+      margin-left: 2em;
+  }
+
+  #directory-main button:hover{
+    background-color: #333;
+    color: white;
     border: 2px solid rgb(43, 255, 0);
-}
+  }
+  #directory-main .list section {
+    margin: 0.25rem;
+    padding: 0.35rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 

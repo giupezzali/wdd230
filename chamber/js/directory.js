@@ -39,3 +39,17 @@ function displayCompanies(company) {
 
 }
 
+//////
+const gridview = document.querySelector('#grid');
+const listview = document.querySelector('#list');
+
+gridview.addEventListener("click", () => {
+	cards.classList.add("grid");
+	cards.classList.remove("list");
+});
+
+listview.addEventListener("click", () => {
+	cards.classList.add("list");
+	cards.classList.remove("grid");
+});
+

@@ -98,5 +98,15 @@
     fieldset.p-inf {
         width: 240px;
     }
+    #directory-main .list section {
+        margin: 0.25rem;
+        padding: 0.35rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #directory-main .list section p {
+        padding: 0.2rem;
+    }
 
 }
