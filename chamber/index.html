@@ -75,13 +75,13 @@
         </div>
 
         <div class="weather">
-            <h3>weather</h3>
-            <section>
-                <p>Currently: <span id="temperature">30</span>°F</p>
-                <p>Wind Speed: <span id="speed">10</span>mph</p>
-                <p> WindChill: <span id="wind"></span></p>
-            </section>
+            <h3><span id="name"></span></h3>
+            <figure><img src="" alt="" id="weathericon"/><p><span id="current-temp"></span> &deg;F</p> <figcaption></figcaption>
+            </figure>
+            <p>WindSpeed: <span id="speed"></span> mph</p>
+            <p> WindChill: <span id="wind"></span></p>
         </div>
+
         <div class="news">
             <h3>News Release</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a nisl ac magna facilisis sagittis. 
@@ -127,7 +127,9 @@
             <a class="map" href="https://goo.gl/maps/L4zSL68GDLWbJpF49">📍 Location Map</a></section>
         <div>
             <p>&copy;<span id="year"></span> Patagonia Chamber | Giuliana A. Pezzali | WDD 230 Project | Last Modification: <span id="updated"></span></p>
+            <p>Weather Source: <span id="icon-src"></span></p>
         </div>
+
     </footer>
     <script src="js/main.js"></script>
     <script src="js/windchill.js"></script>

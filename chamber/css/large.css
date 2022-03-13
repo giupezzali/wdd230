@@ -70,6 +70,11 @@
         grid-column: 1/2;
         grid-row: 2/3;
     }  
+    .weather figure {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
     /*   Discover  */
     .discover-main {
         margin: 1.1em;
