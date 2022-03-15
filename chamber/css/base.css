@@ -128,13 +128,16 @@ main div {
 
 .call-action {
 	position: absolute;
-	top: 50px;
-	right: 50px;
-	background: radial-gradient(#FEFAE0, #606C38);
+	top: 90px;
+	right: 60px;
+	background: radial-gradient(#FEFAE0, #333);
 	border: 1px solid #283618;
-	padding: .2rem;
+	padding: .5rem;
 	box-shadow: 0 0 30px #333;
 	opacity: .9;
+}
+.call-action h3 {
+    color: black;
 }
 
 .spotlight3 {
@@ -164,6 +167,12 @@ footer a:link {
 }
 
 /* Discover */
+.discoverh2 {
+    text-align: center;
+    padding: 1em;
+    background-color: #d49c5c;
+    border-radius: 10px;
+}
 
 .discover-main {
     display: flex;
@@ -321,3 +330,6 @@ p.visit {
     flex-direction: column;
     align-items: center;
 } 
+#directory-main .list section:nth-child(2), .list section:nth-child(4), .list section:nth-child(6), .list section:nth-child(8), .list section:nth-child(10), .list section:nth-child(12){
+    background-color: #d1c9c4;
+  }

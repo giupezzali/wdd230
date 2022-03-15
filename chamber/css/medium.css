@@ -25,6 +25,10 @@
         grid-column: 1/6;
         grid-row: 1/2;
     }
+    .call-action {
+        top: 200px;
+	    right: 50px;
+    }
     .news {
         grid-column: 1/6;
         grid-row: 3/4;

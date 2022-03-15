@@ -45,6 +45,11 @@
         grid-row: 1/3;
         margin-top: .5rem;
     }
+    .call-action {
+        top: 350px;
+	    right: 50px;
+        padding: 1em;
+    }
     .spotlight3{
         display: block;
     }
