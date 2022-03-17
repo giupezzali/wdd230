@@ -29,6 +29,10 @@
         top: 200px;
 	    right: 50px;
     }
+    .call-action a {
+        text-decoration: none;
+    }
+
     .news {
         grid-column: 1/6;
         grid-row: 3/4;
@@ -52,9 +56,7 @@
 
     }
     .join button {
-        color: #283618;
         padding: 0.7em 1.7em;
-        font-size: 18px;
         border-radius: 1.1em;
         background: #FBF5EE;
         border: 1px solid #F4E2CD ;
@@ -62,12 +64,19 @@
         box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #FEFAE0;
         margin-top: 2rem;
     }
+    .join button a {
+        color: #283618;
+        font-size: 18px;
+    }
+    .join button a, .call-action a {
+        text-decoration: none;
+    }
 
-    button:hover {
+    .join button:hover {
     border: 1px solid white;
     }
 
-    button:active {
+    .join button:active {
     box-shadow: 4px 4px 12px #c5c5c5,
                 -4px -4px 12px #FEFAE0;
     }
@@ -121,6 +130,7 @@
     
     .join-main form{
         display: grid;
+        grid-gap: 2em;
         grid-template-columns: 1fr 1fr;
         max-width: 750px;
     }

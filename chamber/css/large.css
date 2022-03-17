@@ -31,7 +31,7 @@
         width: 40px;
         height: auto;
     }
-
+    
     .index-main {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
@@ -43,7 +43,6 @@
     .herodiv {
         grid-column: 2/4;
         grid-row: 1/3;
-        margin-top: .5rem;
     }
     .call-action {
         top: 350px;
@@ -94,6 +93,9 @@
         display: grid;
         grid-template-columns: 1fr 2fr;
     }
+    .join-main form{
+        grid-gap: 0.5em;
+    }
     .join-main picture img {
         display: block;
         margin: 1em;
@@ -105,9 +107,7 @@
         margin: 1em;
         padding: 0.5em;
     }
-    fieldset.p-inf {
-        width: 240px;
-    }
+    
     #directory-main .list section {
         margin: 0.25rem;
         padding: 0.35rem;

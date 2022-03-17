@@ -104,11 +104,11 @@ header, footer {
 }
 
 main div {
-    border: 1px solid #2c3d19;
     font-family: 'Merriweather', Garamond, serif;
     text-align: center;
     margin: .5rem;
     background-color: #F4E2CD;
+    padding: .5em;
 }
 #banner {
     text-align: center;
@@ -123,7 +123,7 @@ main div {
 }
 .herodiv picture img {
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 .call-action {
@@ -136,8 +136,15 @@ main div {
 	box-shadow: 0 0 30px #333;
 	opacity: .9;
 }
-.call-action h3 {
+.call-action a {
     color: black;
+}
+.call-action a:hover {
+    color: #333;
+}
+
+.call-action a {
+    text-decoration: none;
 }
 
 .spotlight3 {
@@ -191,7 +198,9 @@ footer a:link {
 }
 
 /* Join */
-
+.join-main {
+    padding: 2em 1em;
+}
 .join-main picture img {
     display: none;
 }
@@ -208,6 +217,7 @@ form {
 form fieldset {
     border-radius: 20px;
 }
+
 form fieldset .p-inf{
     margin: 1em;
     padding: 1em;
@@ -343,6 +353,7 @@ p.visit {
 
 .contact-main {
     padding: 1em;
+    background-color: #F4E2CD
 }
 
 .contact-main h2 {
