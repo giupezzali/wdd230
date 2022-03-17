@@ -138,13 +138,13 @@
     }
     #submitBtn {
         grid-column: 2;
-        box-shadow: 5px 10px rgb(161, 158, 158);
+        box-shadow: 10px 10px 10px #333;
     } 
     form fieldset {
-        box-shadow: 5px 10px rgb(161, 158, 158);
+        box-shadow: 10px 10px 10px #333;
     }
     .join-img img{
-        box-shadow: 5px 10px rgb(161, 158, 158);
+        box-shadow: 10px 10px 10px #333;
     }
     /* thank you */
     main.thanku {
@@ -167,5 +167,32 @@
     }
     #directory-main .list section p{
         padding: 1em;
+    }
+
+    .contact-main {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+	}
+	.contact-main h2{
+		grid-column: 1/4;
+	}
+	.location {
+	grid-column: 1/4;
+	grid-row: 2;
+	border-radius: 20px;
+	}
+	
+	form.contact {
+		grid-column: 1/2;
+	}
+	.contact-inf {
+		grid-column: 3/4;
+        margin-top: 2em;
+		width: 300px;
+		height: 250px;
+	}
+    
+    .location, .contact-inf, fieldset.contact, #contactBtn{
+        box-shadow: 10px 10px 10px #333; 
     }
 }

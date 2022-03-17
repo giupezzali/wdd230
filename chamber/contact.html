@@ -23,7 +23,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&display=swap" rel="stylesheet">
     
-    <title> Contact | Patagonia Chamber | Chamber of Commerce </title>
+    <title> Contact Us| Patagonia Chamber | Chamber of Commerce </title>
 </head>
 <body>
     <header>
@@ -56,8 +56,34 @@
         </nav>
     </header>
     <main class="contact-main">
-        
-    </main>
+        <h2>Contact Us</h2>
+        <!--form-->    
+        <form class="contact" method="get" action="#">
+          <fieldset class="contact">
+            <legend>Contact Information</legend>
+            <label>Name* <br><input type="text" name="name" id="name" required></label><br><br>
+            <label>Company <br><input type="text" name="company" id="company"></label><br><br>
+            <label>Email* <br><input type="email" id="email" name="email" required placeholder="example@email.com"></label><br><br>
+            <label>Phone Number* <br><input type="tel" id="cellphone" name="cellphone" required></label><br><br>
+            <!--type a message...-->
+            <label>Message<br><textarea rows="4" name="message" placeholder="Type a message"></textarea></label><br><br>
+          </fieldset>
+          <input type="submit" id="contactBtn" value="Send" >
+        </form>
+          
+          <section class="contact-inf">
+          <h3>Business Hours</h3>
+          <p>Mon - Fri: 9AM - 5PM <br>Saturday: 9AM- 2PM</p>
+          
+          <h3>Contact Info</h3>
+          <p><strong>Email </strong><a href="#">info.patagoniacoc.com</a></p>
+          
+          <p><strong>Phone </strong><a href="#">+549 XXX-XXXXXXX</a></p>
+        </section>
+       
+        <section class="location"><p>We are Based in <strong>Neuquén, Argentina</strong></p>
+            <iframe class="neuquenMap"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3102.5238744988633!2d-68.10752928506639!3d-38.9577043081298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x960a330f88ba0931%3A0x1f17e6a0d88e1041!2sNeuquen!5e0!3m2!1ses-419!2sar!4v1647388761556!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></section>
+      </main>
     <footer>
         <section>
             <picture class ="logo">

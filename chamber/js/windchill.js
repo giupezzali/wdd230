@@ -12,8 +12,9 @@ fetch(apiURL)
     const caption = document.querySelector('figcaption');
     const name = document.querySelector('#name');
   
-
-    name.textContent = jsObject.name;
+    let heading = document.createElement('h3');
+    heading.textContent = jsObject.name;
+    name.appendChild(heading);
     
     //round the currentTemp
     currentTemp.textContent = jsObject.main.temp.toFixed(0); 
