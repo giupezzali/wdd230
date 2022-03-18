@@ -87,6 +87,10 @@
         grid-template-columns: 50% 50%;
         grid-gap: 1em;
     }
+    .discover-main section {
+        padding: 1.1em;
+        margin: 0em;
+    }
 
     /* Join */
     .join-main {
@@ -105,7 +109,7 @@
     }
     form fieldset {
         margin: 1em;
-        padding: 0.5em;
+        padding: 0em;
     }
     
     #directory-main .list section {

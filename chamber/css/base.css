@@ -180,6 +180,11 @@ footer a:link {
     background-color: #d49c5c;
     border-radius: 10px;
 }
+.discover-main section {
+    background-color: #F4E2CD;
+    padding: 1.1em;
+    margin: 1em;
+}
 
 .discover-main {
     display: flex;
@@ -199,6 +204,7 @@ footer a:link {
 
 /* Join */
 .join-main {
+    background-color: #F4E2CD;
     padding: 2em 1em;
 }
 .join-main picture img {
