@@ -196,11 +196,11 @@ footer a:link {
     margin: 1em;
 }
 .discover-main section img {
-    width: 70%;
+    width: 95%;
     height: auto;
 }
 .discover-main section p {
-    padding: 2em;
+    padding: 1em 1.5em;
 }
 
 /* Join */
