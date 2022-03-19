@@ -152,6 +152,7 @@ main div {
 }
 .join {
     display: none;
+    cursor: pointer;
 }
 h1, h2, h3 {
     font-family: 'Montserrat', Tahoma, sans-serif;
@@ -192,14 +193,14 @@ footer a:link {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 1.1em;
+    margin: 1em;
 }
-.discover-main div picture img {
+.discover-main section img {
     width: 300px;
     height: auto;
 }
-.discover-main div {
-    padding: 2em;
+.discover-main section p {
+    padding: 1em;
 }
 
 /* Join */
@@ -222,11 +223,11 @@ form {
 }
 form fieldset {
     border-radius: 20px;
+    padding: 0.7em;
 }
 
 form fieldset .p-inf{
     margin: 1em;
-    padding: 1em;
     border-radius: 10px;
     font-size: 17px;
 }

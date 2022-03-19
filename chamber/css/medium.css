@@ -63,6 +63,7 @@
         transition: all .3s;
         box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #FEFAE0;
         margin-top: 2rem;
+        cursor: pointer;
     }
     .join button a {
         color: #283618;
@@ -118,8 +119,9 @@
         padding: 2em;
     }
     
-    .discover-main img {
+    .discover-main section img {
         box-shadow: 0 0 30px #333;
+        width: 98%;
     }
 
     .discover-main img:hover {

@@ -3,8 +3,9 @@ const apiURL = 'https://api.openweathermap.org/data/2.5/weather?q=Neuquen&units=
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
+      console.log(apiURL);
     
-    let currentTemp = document.querySelector('#current-temp');
+    let temp = document.querySelector('#current-temp');
     let speed = document.querySelector('#speed');
     let windchill = "";
     const iconsrc= `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
@@ -17,8 +18,8 @@ fetch(apiURL)
     name.appendChild(heading);
     
     //round the currentTemp
-    currentTemp.textContent = jsObject.main.temp.toFixed(0); 
-    speed.textContent = jsObject.wind.speed.toFixed(0); 
+    temp.textContent = jsObject.main.temp.toFixed(1); 
+    speed.textContent = jsObject.wind.speed.toFixed(1); 
 
     //capitalize the alt message
     desc = desc.split(' ').map(capitalize).join(' ');  
@@ -31,16 +32,16 @@ fetch(apiURL)
     document.querySelector('#weathericon').setAttribute('alt', desc);
     document.querySelector('figcaption').textContent = desc;
   
-    if (currentTemp <= 50 && speed > 3) {
-        windchill = windChill (currentTemp, speed);
+    if (temp <= 50 && speed > 3) {
+        windchill = windChill (temp, speed);
         windchill = `${windchill}°F`;
     } else {
         windchill = "N/A";
     }
 
     document.querySelector("#wind").textContent = windchill;
-});
 
+});
 
 function capitalize(word) {
     return `${word.charAt(0).toUpperCase()}${word.slice(1)}`;

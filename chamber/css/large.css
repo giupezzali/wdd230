@@ -81,11 +81,9 @@
     }
     /*   Discover  */
     .discover-main {
-        margin: 1.1em;
-        padding: 2em;
         display: grid;
         grid-template-columns: 50% 50%;
-        grid-gap: 1em;
+        grid-gap: 2em;
     }
     .discover-main section {
         padding: 1.1em;
@@ -98,18 +96,17 @@
         grid-template-columns: 1fr 2fr;
     }
     .join-main form{
-        grid-gap: 0.5em;
+        grid-gap: 1em;
     }
     .join-main picture img {
+        width: 85%;
         display: block;
-        margin: 1em;
-        margin-right: 1.5em;
+        margin: 2em 0 0 .8em;
         border-radius: 20px;
-        border: 2px solid grey;
+        border: 1px solid grey;
     }
     form fieldset {
         margin: 1em;
-        padding: 0em;
     }
     
     #directory-main .list section {
