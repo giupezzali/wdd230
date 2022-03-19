@@ -43,10 +43,10 @@
         display: grid;
         grid-template: auto/ 1fr 1fr;
     }
-    .spotlight1 {
+    .spotlight .one {
         grid-column: 1;
     }
-    .spotlight2 {
+    .spotlight .two {
         grid-column: 2;
     }
     .join {
