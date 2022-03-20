@@ -146,7 +146,7 @@ main div {
 .call-action a {
     text-decoration: none;
 }
-.spotlight div {
+.spotlight{
     padding: 1em;
     border: 1px solid white;
     background-color: #d1c9c4;
@@ -157,9 +157,9 @@ main div {
     padding: 0;
 }
 
-.spotlight3 {
+/* .spotlight3 {
     display: none;
-}
+} */
 .join {
     display: none;
     cursor: pointer;

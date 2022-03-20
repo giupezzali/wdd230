@@ -37,18 +37,19 @@
         grid-column: 1/6;
         grid-row: 3/4;
     }
-    .spotlight {
+    .spotlight{
         grid-column: 1/6;
         grid-row: 5/6;
-        display: grid;
-        grid-template: auto/ 1fr 1fr;
-    }
-    .spotlight1 {
+    } 
+    /* .spotlight1 {
         grid-column: 1;
     }
     .spotlight2 {
         grid-column: 2;
-    }
+    } */
+    /* .spotlight {
+        grid-column: 3;
+    } */
     .join {
         display: block;
         grid-column: 1/6;
