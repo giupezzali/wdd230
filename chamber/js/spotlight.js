@@ -8,12 +8,12 @@ fetch(requestURL)
     .then(function (jsonObject) {
         console.table(jsonObject);
         const companies = jsonObject['companies'];
-      let membershiFiltered = companies.filter(membership => membership.membership === 'gold' || membership.membership === 'silver');
-      console.log(membershiFiltered);
+        let membershiFiltered = companies.filter(membership => membership.membership === 'gold' || membership.membership === 'silver');
+      
   
-      for (i = 1; i < 4; i++) {
-        const randomMember =[Math.floor(Math.random()*membershiFiltered.length)];
-        displayCompanies(membershiFiltered[randomMember]);
+        for (i = 0; i < 3; i++) {
+            const randomMember =[Math.floor(Math.random()*membershiFiltered.length)];
+            displayCompanies(membershiFiltered[randomMember]);
     }
 });
        

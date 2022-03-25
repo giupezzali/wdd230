@@ -1,0 +1,117 @@
+header {
+    padding: 1.1em;
+    background-color:#FFF;
+    box-shadow: 0 15px 30px 0 rgb(0 0 0 / 15%);
+    display: flex;
+    justify-content: space-between;
+}
+#sticky-header {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+body {
+  background-color: #FDF9ED;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+}
+p, a {
+  font-family: 'Noto Sans', Arial, Helvetica, sans-serif;
+}
+
+/* social --------------------------------------------------- */
+
+.social i{
+  margin: 1em 0em;
+  color: #292929;
+  padding: .75em;
+}
+.social i:hover {
+  color: #0D406E;
+  margin: .5em;
+  transition: 0.5s;
+}
+
+/* Navigation Bar ----------------------------------------*/
+nav {
+  float: right;
+  overflow: hidden;
+} 
+
+.navigation {
+list-style: none;
+margin: 0;
+padding: 0;
+text-align: center;
+}
+.navigation li:first-child {
+display: block;
+}
+.navigation li {
+display: none;
+}
+.navigation a {
+background-color: #686868;
+display: block;
+padding: 1.2em;
+text-decoration: none;
+color: lightcyan;
+transition: 0.7s;
+}
+
+.navigation li:nth-child(1) a{
+    background-color: transparent;
+    border: none;
+    margin: 0 1em;
+    font-size: 1em;
+    color: #0D406E;  
+}
+
+.navigation a.ham::before {
+content: "☰";
+}
+
+nav ul li a:link {
+  color: #FDF9ED;
+}
+nav ul li.active a {
+  background-color: #FFD700;
+  color: #292929;
+}
+
+.navigation a:hover {
+color: #686868;
+background-color: #FFED85;
+}
+
+.responsive li {
+display: block;
+}
+
+.responsive a.ham::before {
+content: "X";
+}
+
+/* footer   */
+footer {
+  text-align: center;
+  background-color: #FFF;
+  box-shadow: 0 15px 30px 0 rgb(0 0 0 / 15%);
+}
+
+footer a {
+  color: #141414;
+  text-decoration: none;
+}
+
+
+
+/* Testing purpose */
+div {
+  background-color: #686868;
+  padding: 150px;
+  margin: 2em;
+}

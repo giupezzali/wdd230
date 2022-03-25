@@ -23,16 +23,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&display=swap" rel="stylesheet">
     
-    <title> Home | Patagonia Chamber | Chamber of Commerce </title>
+    <title> Join | Patagonia Chamber | Chamber of Commerce </title>
 </head>
 <body>
     <header>
         <section class="logo-name">
             <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
-            
             <!-- Logo and name -->
             <picture class ="logo">
                 <source srcset="images/logo-medium.webp" media="(min-width:559px)">
+                  <!-- <source srcset="images/logo-large.webp" media="(min-width:1024px)"> -->
+
                 <img src="images/logo-small.webp" alt="Chamber logo">
             </picture>
            
@@ -46,55 +47,22 @@
         <!-- Navigation Bar -->
         <nav>
             <ul id="primaryNav">
-                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="discover.html">Discover</a></li>
                 <li><a href="directory.html">Directory</a></li>
                 <li><a href="join.html">Join</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li class="active"><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <section id="banner"><h2 id="banner">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</h2></section>
-    <main class="index-main">
-        <div class="herodiv">
-            <picture>
-                <source srcset="images/hero-medium.webp" media="(min-width:559px) and (max-width: 1023px)">
-                  <source srcset="images/hero-large.webp" media="(min-width:1024px)">
-                <img src="images/hero-small.webp" alt="Hero"> 
-            </picture>
-            <section class="call-action">
-              <h3><a href="join.html" target="_blank">Join the Chamber</a></h3>
-            </section>
-        </div>
-
-        <div class="event">
-            <h3>Entrepreneurs Fair</h3>
-            <h4>Neuquen Emprende</h4>
-            <p>Join us to the Entrepreneurs fair, Saturday at 3 p.m. <a href="https://www.diarioandino.com.ar/noticias/2022/03/15/221680-invitan-a-participar-de-la-feria-de-emprendedores-neuquen-emprende" target="_blank">More info...</a></p>
-        </div>
-
-        <div class="weather">
-            <p><span id="name"></span></p>
-            <figure><img src="" alt="" id="weathericon"/><p><span id="current-temp"></span> &deg;F</p> <figcaption></figcaption>
-            </figure>
-            <p>WindSpeed: <span id="speed"></span> mph</p>
-            <p> WindChill: <span id="wind"></span></p>
-        </div>
-
-        <div class="news">
-            <h3>News Release</h3>
-            <p>As the holidays are over and we return to classes and jobs, the province's Ministry of Health reminds
-                 us of how important it is to get vaccinated. Let's remember that vaccination is free and voluntary. <br><strong>Let's take care of ourselves!</strong></p>
-        </div>
-
-        <div class="spotlight"></div>
-
-        <div class="join"> 
-            <button type="button" onclick="window.location.href = 'join.html';">Join Us!</button>
-            <p>Discover how to join the chamber of commerce and how it will benefit your organization!</p>
-        </div>
+    <main class="thanku">
+        <picture class="tu-img"><img src="images/thanks.webp" alt="goose watching an Alfajor"></picture>
+        <section class="thanks"> 
+            <h2>Thank you for contacting us!</h2>
+            <p>We will contact you as soon as we can! </p>
+        </section>
+        
     </main>
-    
     <footer>
         <section>
             <picture class ="logo">
@@ -110,13 +78,8 @@
             <a class="map" href="https://goo.gl/maps/L4zSL68GDLWbJpF49">📍 Location Map</a></section>
         <div>
             <p>&copy;<span id="year"></span> Patagonia Chamber | Giuliana A. Pezzali | WDD 230 Project | Last Modification: <span id="updated"></span></p>
-            <p>Weather Source: <br> <a href="https://openweathermap.org/img/w/01n.png">https://openweathermap.org/img/w/01n.png</a> </p>
         </div>
-        
     </footer>
     <script src="js/main.js"></script>
-    <script src="js/windchill.js"></script>
-    <script src="js/banner.js"></script>
-    <script src="js/spotlight.js"></script>
 </body>
 </html>
