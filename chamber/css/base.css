@@ -110,7 +110,7 @@ main div {
     background-color: #F4E2CD;
     padding: .5em;
 }
-#banner, h2.banner {
+h2.banner {
     text-align: center;
     box-shadow: 20px 20px 15px grey;
     padding: 1em;
