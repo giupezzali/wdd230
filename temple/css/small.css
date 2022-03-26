@@ -1,3 +1,8 @@
+.index-main {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
 header {
     padding: 1.1em;
     background-color:#FFF;
