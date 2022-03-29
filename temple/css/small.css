@@ -30,12 +30,6 @@ p, a {
   color: #292929;
   padding: .75em;
 }
-.social i:hover {
-  color: #0D406E;
-  margin: .5em;
-  transition: 0.5s;
-}
-
 /* Navigation Bar ----------------------------------------*/
 nav {
   float: right;
@@ -81,11 +75,6 @@ nav ul li a:link {
 nav ul li.active a {
   background-color: #FFD700;
   color: #292929;
-}
-
-.navigation a:hover {
-color: #686868;
-background-color: #FFED85;
 }
 
 .responsive li {
@@ -135,11 +124,6 @@ footer a {
   text-decoration: none;
   color: #141414;
 }
-.call-action:hover {
-  background: radial-gradient(#FDF9ED, #ca96a5 );
-  border: 1px solid #ca96a5;
-  box-shadow: 0 0 30px #292929;
-}
 
 /*temple Div ---------------------------------*/
 .campinas, .contact-sec {
@@ -148,7 +132,6 @@ footer a {
   margin: 1em;
   max-width: 280px;
   text-align: center;
-  box-shadow: 0 0 20px #292929;
   border-radius: 5px;
 }
 .campinas img {
@@ -157,16 +140,13 @@ footer a {
  border: 2px solid #FFD700;
  box-shadow: 0px 0px 30px #FFED85;
 }
-.campinas img:hover {
-  opacity: .8;
-}
+
 .campinas a, .contact-sec a {
   text-decoration: none;
+  font-weight: bold;
   color: #292929
 }
-.campinas a:hover, .contact-sec a:hover {
-  color: #0D406E;
-}
+
 .campinas p, .contact-sec p {
   margin: 0 1.1em;
 }
@@ -186,11 +166,5 @@ a.contact-btn {
 	transition: 0.5s;
   box-shadow: 0px 0px 10px #292929;
 }
-
-a.contact-btn:hover {
-  background-color: #FFD700;
-    color: #292929; 
-}
-
 
 /* ----------------------------------------------------------*/

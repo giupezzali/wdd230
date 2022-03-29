@@ -2,25 +2,23 @@
 
     /* social -----------------------------------  */
 
-    .social i{
-        margin: 1em 0em;
-        background-color: #292929;
-        color: lightcyan;
-        padding: .8em;
-        border-radius: 50px;
-        border: 1px solid #686868;
+    .social i:hover {
+        color: #0D406E;
+        margin: .5em;
+        transition: 0.5s;
       }
-      .social i:hover {
-        background-color: black;
-        color: #FFED85;
-        margin: 1em;
-      }
+      
 
       /* nav-------------------- */
 
     .navigation {
         margin: 1em;
-        }
+    }
+    .navigation a:hover {
+        color: #686868;
+        background-color: #FFED85;
+    }
+        
 
 
     /* footer -----------------  */
@@ -46,7 +44,31 @@
         padding: .5rem;
         opacity: .9;
         font-size: 1em;
+    }
+    .call-action:hover {
+        background: radial-gradient(#FDF9ED, #ca96a5 );
+        border: 1px solid #ca96a5;
+        box-shadow: 0 0 30px #292929;
       }
+      
+    /* temple section ---------------*/
+    .campinas, .contact-sec {
+        box-shadow: 0 0 20px #292929;
+      }
+    .campinas img:hover {
+        opacity: .8;
+    }
+
+    .campinas a:hover, .contact-sec a:hover {
+        color: #0D406E;
+    }
+
+    /* Contact information section*/
+    a.contact-btn:hover {
+        background-color: #FFD700;
+          color: #292929; 
+    }
+    
 
 
 }
