@@ -27,7 +27,6 @@
     footer {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        margin: 1em;
         text-align: center;
     }
     footer img, footer section.social {
@@ -38,5 +37,16 @@
     footer p {
         grid-column: 1/4;
     }
+
+    /* call to action */
+    .call-action {
+        position: absolute;
+        top: 40px;
+        right: 50px;
+        padding: .5rem;
+        opacity: .9;
+        font-size: 1em;
+      }
+
 
 }

@@ -2,6 +2,7 @@
 
     main {
         max-width: 1000px;
+		
     }
 
     /* navigation bar --------------------*/
@@ -20,4 +21,12 @@
         border-left: 1px solid #ADADAD;
         border-right: 1px solid #ADADAD;
 	}
+	/* header */
+	/* #sticky-header {
+		position: sticky;
+		position: -webkit-sticky;
+		top: 0;
+	  } */
+
+	
 }
