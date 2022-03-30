@@ -11,6 +11,9 @@
 
       /* nav-------------------- */
 
+    .navigation {
+        margin: 1em;
+    }
 
     .navigation a:hover {
         color: #686868;

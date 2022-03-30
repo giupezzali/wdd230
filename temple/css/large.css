@@ -20,15 +20,26 @@
       }
 
     /* navigation bar --------------------*/
-	#hamburgerBtn { display: none;}
-  
-  nav ul#navigation {
-    display: flex;
-    justify-content: right;
-  }
+    .navigation {
+      display: flex;
+    }
+    .navigation li {
+      display: block;
+      flex: 1 1 auto;
+    }
+    .navigation a {
+      text-align: center;
+    }
+    .navigation li:first-child {
+      display: none;
+          border-left: 1px solid #ADADAD;
+          border-right: 1px solid #ADADAD;
+    }
 
 	/* header */
-	/* #sticky-header {
+    
+	
+    /* #sticky-header {
 		position: sticky;
 		position: -webkit-sticky;
 		top: 0;
