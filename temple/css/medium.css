@@ -38,6 +38,9 @@
     }
 
     /* call to action */
+    .herodiv {
+        grid-column: 1/4;
+    }
     .call-action {
         position: absolute;
         top: 40px;
@@ -53,9 +56,9 @@
       }
       
     /* temple section ---------------*/
-    .campinas, .contact-sec {
+    .campinas, .contact-sec, .current-weather {
         box-shadow: 0 0 20px #292929;
-      }
+    }
     .campinas img:hover {
         opacity: .8;
     }
@@ -63,11 +66,22 @@
     .campinas a:hover, .contact-sec a:hover {
         color: #0D406E;
     }
+    .campinas {
+        grid-row: 2/4;
+    }
 
     /* Contact information section*/
+    .contact-sec {
+        grid-column: 3/4;
+    }
     a.contact-btn:hover {
         background-color: #FFD700;
           color: #292929; 
+    }
+
+    /* weather -----------------*/
+    .current-weather {
+        grid-column: 3/4;
     }
     
 

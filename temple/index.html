@@ -78,6 +78,15 @@
             <h4><a href="https://www.churchofjesuschrist.org/temples/details/campinas-brazil-temple?lang=eng">More Info...</a></h4>
         </section>
 
+        <section class="current-weather">
+            <h2>Current weather</h2>
+            <h3>Bethesda, Maryland</h3>
+            <figure><img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather descripcion" id="weathericon"/>    
+            <figcaption></figcaption></figure>
+            <p><span id="current-temp"></span> &deg;F</p>
+            <p>Humidity <span id="hum"></span> %</p>        
+        </section>
+
         <section class="contact-sec">
             <h2>Don't hesitate to contact us!</h2>
             <p>We are base in <a href="#">Bethesda, Maryland</a>.</p><br>
@@ -105,8 +114,10 @@
             <a href="instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>  
         </section> 
         <p>&copy;<span id="year"></span> Temple Inn & Suites | Last Modification: <span id="updated"></span></p>
+        <span id="icon-src"></span>
     </footer>
     <script src="js/main.js"></script>
+    <script defer src="js/weather.js"></script>
 
 </body>
 </html>

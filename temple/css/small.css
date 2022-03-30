@@ -129,7 +129,7 @@ footer a {
 }
 
 /*temple Section ---------------------------------*/
-.campinas, .contact-sec {
+.campinas, .contact-sec, .current-weather {
   border: 1px solid #292929;
   padding: 1em;
   margin: 1em;
@@ -171,3 +171,7 @@ a.contact-btn {
 }
 
 /* ----------------------------------------------------------*/
+
+.current-weather figcaption{
+  font-family: 'Noto Sans', Arial, Helvetica, sans-serif;   
+}
