@@ -1,10 +1,11 @@
-// Navigation Bar --------------------------
-const hambutton = document.querySelector('.ham');
-const mainnav = document.querySelector('.navigation')
+//Create hamburger Button
+function toggleMenu() {
+    document.getElementById("navigation").classList.toggle("open");
+    document.getElementById("hamburgerBtn").classList.toggle("open");
+}
 
-hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
-
-window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('responsive')};
+const x = document.getElementById('hamburgerBtn')
+x.onclick = toggleMenu;
 
 //current year in footer -------------------
 const currentDate = new Date();

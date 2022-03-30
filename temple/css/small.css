@@ -8,8 +8,8 @@ header {
     padding: 1.1em;
     background-color:#FFF;
     box-shadow: 0 15px 30px 0 rgb(0 0 0 / 15%);
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 4fr 4fr 2fr;
 }
 
 body {
@@ -30,11 +30,20 @@ p, a {
   color: #292929;
   padding: .75em;
 }
+
 /* Navigation Bar ----------------------------------------*/
+#hamburgerBtn {
+  margin: 0;
+  margin-right: .5em;
+  background-color: transparent;
+  border: none;
+  font-size: 1.5rem;
+  color: #292929; 
+}
+
 nav {
-  float: right;
-  overflow: hidden;
-} 
+  grid-column: 1/4;
+}
 
 .navigation {
 list-style: none;
@@ -42,12 +51,7 @@ margin: 0;
 padding: 0;
 text-align: center;
 }
-.navigation li:first-child {
-display: block;
-}
-.navigation li {
-display: none;
-}
+
 .navigation a {
 background-color: #686868;
 display: block;
@@ -57,35 +61,22 @@ color: lightcyan;
 transition: 0.7s;
 }
 
-.navigation li:nth-child(1) a{
-    background-color: transparent;
-    border: none;
-    margin: 0 1em;
-    font-size: 1em;
-    color: #0D406E;  
-}
-
-.navigation a.ham::before {
-content: "☰";
-}
-
-nav ul li a:link {
-  color: #FDF9ED;
-}
 nav ul li.active a {
   background-color: #FFD700;
   color: #292929;
 }
 
-.responsive li {
-display: block;
-}
+nav ul {display: none;}
+nav ul.open {display: block;}
 
-.responsive a.ham::before {
-content: "X";
-}
 
-/* footer   */
+#hamburgerBtn span:nth-child(1) {display: block;}
+#hamburgerBtn span:nth-child(2) {display: none;}
+
+#hamburgerBtn.open span:nth-child(1) {display: none;}
+#hamburgerBtn.open span:nth-child(2) {display: block;}
+
+/* footer  ------------------------------------- */
 footer {
   text-align: center;
   background-color: #FFF;
