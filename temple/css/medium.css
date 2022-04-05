@@ -11,11 +11,11 @@
 
       /* nav-------------------- */
 
-    .navigation {
+    #navigation {
         margin: 1em;
     }
 
-    .navigation a:hover {
+    #navigation a:hover {
         color: #686868;
         background-color: #FFED85;
     }
@@ -35,6 +35,12 @@
     }
     footer p {
         grid-column: 1/4;
+    }
+
+    /*------------------------------ Home ----------------------*/
+
+    .index-main {
+        grid-gap: 1em;
     }
 
     /* call to action */
@@ -57,7 +63,8 @@
       
     /* temple section ---------------*/
     .campinas, .contact-sec, .current-weather {
-        box-shadow: 0 0 20px #292929;
+        box-shadow: 0 0 16px #292929;
+        padding: 1em;
     }
     .campinas img:hover {
         opacity: .8;
@@ -67,6 +74,7 @@
         color: #0D406E;
     }
     .campinas {
+        grid-column: 1/2;
         grid-row: 2/4;
     }
 
@@ -78,8 +86,8 @@
         background-color: #FFD700;
           color: #292929; 
     }
-
     /* weather -----------------*/
+
     .current-weather {
         grid-column: 3/4;
     }

@@ -1,9 +1,4 @@
-const apiURL = 'https://api.openweathermap.org/data/2.5/onecall?lat=38.984653&lon=-77.094711&appid=1adb5e33feff8ed9a9d7476d89527b8cunits=imperial&';
-
-fetch(apiURL)
-  .then((response) => response.json())
-  .then((jsObject) => {
-    const apiURL = 'https://api.openweathermap.org/data/2.5/onecall?lat=38.984653&lon=-77.094711&units=imperial&appid=1adb5e33feff8ed9a9d7476d89527b8c';
+const apiURL = 'https://api.openweathermap.org/data/2.5/onecall?lat=38.984653&lon=-77.094711&units=imperial&appid=1adb5e33feff8ed9a9d7476d89527b8c';
 
 fetch(apiURL)
   .then((response) => response.json())
@@ -30,6 +25,4 @@ fetch(apiURL)
     document.querySelector('#weathericon').setAttribute('src', iconsrc);
     document.querySelector('#weathericon').setAttribute('alt', desc);
     document.querySelector('figcaption').textContent = desc;
-
-  });
 });

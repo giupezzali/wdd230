@@ -4,46 +4,52 @@
         max-width: 1000px;
     }
 
-	/* social media icons -------------------*/
-	.social i{
-        margin: 1em 0em;
-        background-color: #292929;
-        color: lightcyan;
-        padding: .8em;
-        border-radius: 50px;
-        border: 1px solid #686868;
-      }
-      .social i:hover {
-        background-color: black;
-        color: #FFED85;
-        margin: 1em;
-      }
-
-    /* navigation bar --------------------*/
-    .navigation {
+    header {
+      display: flex;
+      justify-content: space-between;
+    }
+    #hamburgerBtn { display: none;}
+  
+    #navigation {
       display: flex;
     }
-    .navigation li {
-      display: block;
+    nav {
+      float: right;
+      overflow: hidden;
+   } 
+    #navigation li {
+      display: block; 
       flex: 1 1 auto;
     }
-    .navigation a {
+    #navigation a {
       text-align: center;
     }
-    .navigation li:first-child {
-      display: none;
-          border-left: 1px solid #ADADAD;
-          border-right: 1px solid #ADADAD;
-    }
 
-	/* header */
-    
-	
-    /* #sticky-header {
-		position: sticky;
-		position: -webkit-sticky;
-		top: 0;
-	  } */
+	/* social media icons -------------------*/
+	.social i{
+    margin: 1em 0em;
+    background-color: #292929;
+    color: lightcyan;
+    padding: .8em;
+    border-radius: 50px;
+    border: 1px solid #686868;
+  }
+  .social i:hover {
+    background-color: black;
+    color: #FFED85;
+    margin: 1em;
+  }
 
+  /* ----------------------Home--------------------------- */
+  .index-main {
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .herodiv {
+    grid-column: 1/6;
+  }
+  .contact-sec {
+    grid-column: 5/6;
+  }
+  
 	
 }

@@ -23,22 +23,23 @@
     <title> Home | Temple Inn & Suites</title>
 </head>
 <body>
-    <header id="sticky-header">
+    <header>
         <picture class="logo">
             <source srcset="images/logo-medium.webp" media="(min-width:559px) and (max-width: 1023px)">
             <source srcset="images/logo-large.webp" media="(min-width:1024px)">
             <img src="images/logo-small.webp" alt="temple Inn & Suits Logo">
         </picture>
 
-        <section class="social">
+        <div class="social">
             <a href="www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
             <a href="www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
             <a href="www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
-        </section> 
+        </div> 
+
+        <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
 
         <nav>
-            <ul class="navigation">
-                <li><a class="ham" href="#"></a></li>
+            <ul id="navigation">
                 <li class="active"><a href="index.html">Home</a></li>
                 <li><a href="temples.html">Temples</a></li>
                 <li><a href="reservation.html">Reservation</a></li>
@@ -63,13 +64,13 @@
 
         <section class="campinas">
             <h2>Campinas Brazil Temple</h2>
-            <a href="https://www.churchofjesuschrist.org/temples/details/campinas-brazil-temple?lang=eng" loading="lazy"> <img src="https://assets.ldscdn.org/33/cb/33cb73d045a401cfc3d837910eac29ab672ae74c/campinas_brazil_temple_lds.jpeg" alt="Campinas Brazil Temple front view"></a>
+            <a href="https://www.churchofjesuschrist.org/temples/details/campinas-brazil-temple?lang=eng"> <img src="https://assets.ldscdn.org/33/cb/33cb73d045a401cfc3d837910eac29ab672ae74c/campinas_brazil_temple_lds.jpeg" alt="Campinas Brazil Temple front view" loading="lazy"></a>
             <h3>Address: </h3>
             <p><a href="https://goo.gl/maps/xFWRq5mWfVMQEZKa9">Rua James Esdras Faust, 400
                 Barrio Notre Dame
                 CEP 13092-820 Campinas - SP, Brazil</a></p>
             <h3>Phone Number: </h3>
-            <p><a href="tel:(55) 19-2102-5800"> (55) 19-2102-5800</a></p>
+            <p><a href="tel:(55)19-2102-5800"> (55) 19-2102-5800</a></p>
             <h3>Services: </h3>
             <p>Clothing rental available <br>
                 Cafeteria available <br>
@@ -81,7 +82,7 @@
         <section class="current-weather">
             <h2>Current weather</h2>
             <h3>Bethesda, Maryland</h3>
-            <figure><img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather descripcion" id="weathericon"/>    
+            <figure><img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather description" id="weathericon"/>    
             <figcaption></figcaption></figure>
             <p><span id="current-temp"></span> &deg;F</p>
             <p>Humidity <span id="hum"></span> %</p>        
@@ -108,11 +109,11 @@
             <p><a class="map" href="https://goo.gl/maps/KsJhtJGZc8jbvMAe6">📍Location Map</a></p>
             <p><a href="contact.html">Contact Us</a></p>
         </section>
-        <section class="social">
+        <div class="social">
             <a href="twitter" target="_blank"><i class="fab fa-twitter"></i></a>
             <a href="facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
             <a href="instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>  
-        </section> 
+        </div> 
         <p>&copy;<span id="year"></span> Temple Inn & Suites | Last Modification: <span id="updated"></span></p>
         <span id="icon-src"></span>
     </footer>

@@ -1,15 +1,17 @@
-.index-main {
-  max-width: 960px;
-  margin: 0 auto;
+header {
   padding: 1.1em;
+  background-color:#FFF;
+  color: #0D406E;
+  box-shadow: 0 15px 30px 0 rgb(0 0 0 / 15%);
+  display: grid;
+  grid-template-columns: 3fr 3fr 1fr;
 }
 
-header {
-    padding: 1.1em;
-    background-color:#FFF;
-    box-shadow: 0 15px 30px 0 rgb(0 0 0 / 15%);
-    display: flex;
-    justify-content: space-between;
+
+.sticky-header {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
 }
 
 body {
@@ -26,67 +28,62 @@ p, a {
 /* social --------------------------------------------------- */
 
 .social i{
-  margin: 1em 0em;
+  margin: 1.5em 0em;
   color: #292929;
   padding: .75em;
 }
 
+
 /* Navigation Bar ----------------------------------------*/
-nav {
-  float: right;
-  overflow: hidden;
-} 
 
+#hamburgerBtn {
+  /* margin: .3rem 2vw; */
+  margin: 0 .5em;
+  background-color: transparent;
+  border: none;
+  font-size: 1.5em;
+  color: #0D406E; 
+}
 
-
-.navigation {
+#navigation {
 list-style: none;
 margin: 1em;
 padding: 0;
 text-align: center;
 }
-.navigation li:first-child {
-display: block;
+nav{
+grid-column: 1/4;
+grid-row: 2;
 }
-.navigation li {
-display: none;
-}
-.navigation a {
+
+#navigation a {
 background-color: #686868;
 display: block;
-padding: 0.75rem;
+padding: 1rem;
 text-decoration: none;
 color: lightcyan;
 font-weight: 500;
 transition: 0.5s;
 }
 
-.navigation li:nth-child(1) a{
-    background-color: transparent;
-    border: none;
-    font-size: 1.5em;
-    color: #0D406E;  
-}
-
-.navigation a.ham::before {
-content: "☰";
-}
-
 nav ul li a:link {
   color: #FDF9ED;
 }
-nav ul li.active a {
+#navigation li.active a {
   background-color: #FFD700;
   color: #292929;
 }
 
-.responsive li {
-display: block;
-}
 
-.responsive a.ham::before {
-content: "X";
-}
+nav ul {display: none;}
+nav ul.open {display: block;}
+
+
+#hamburgerBtn span:nth-child(1) {display: block;}
+#hamburgerBtn span:nth-child(2) {display: none;}
+
+#hamburgerBtn.open span:nth-child(1) {display: none;}
+#hamburgerBtn.open span:nth-child(2) {display: block;}
 
 /* footer  ------------------------------------- */
 footer {
@@ -98,6 +95,18 @@ footer {
 footer a {
   color: #141414;
   text-decoration: none;
+}
+span#icon-src {
+  color: transparent;
+}
+
+/* ---------------------Home------------------------------*/
+
+.index-main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1.1em;
+  display: grid;
 }
 
 /* hero ------------------ */
@@ -132,8 +141,9 @@ footer a {
 .campinas, .contact-sec, .current-weather {
   border: 1px solid #292929;
   padding: 1em;
-  margin: 1em;
-  max-width: 280px;
+  margin: 1em auto;
+  min-width: 280px;
+  max-width: 300px;
   text-align: center;
   border-radius: 5px;
 }

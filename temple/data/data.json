@@ -1,0 +1,124 @@
+{
+    "temples": [
+        {
+            "name": "Concepción Chile Temple",
+            "image": "https://assets.ldscdn.org/db/55/db552f67666468c533f22586e37044aea4468edc/concepcion_chile_temple.jpeg",
+            "address": "1525 Pedro de Valdivia, Concepción, Bio-Bio, Chile",
+            "phone": "(56) 41-3834700",
+            "email": "Available via churchofjesuschrist.org" "Available via churchofjesuschrist.org",
+            "services": "Distribution center nearby",
+            "history": "28 October 2018: Dedicated — dedicatory prayer",
+            "ordinance": "PHASE 3: All living ordinances and limited proxy ordinances",
+            "sessions": "Contact the temple for information about the sessions",
+            "closure": "Contact the temple for information about the sessions"
+        },
+        {
+            "name": "Córdoba Argentina Temple",
+            "image": "https://assets.ldscdn.org/9f/5b/9f5b9de02ebec05c3a4b5e97bc8d1c695c606bf3/cordoba_argentina_temples_buildings.jpeg",
+            "address": "Av. Pedro Simón Laplace 5637, X5021 FPO, Córdoba",
+            "phone": "(54) 354-340-6200",
+            "email": "Available via churchofjesuschrist.org",
+            "services": "Distribution center nearby",
+            "history": "17 May 2015: Dedicated — dedicatory prayer",
+            "ordinance":"PHASE 3: All living ordinances and limited proxy ordinances",
+            "sessions": "Contact the temple for information about the sessions",
+            "closure":"Contact the temple for information about the sessions" 
+        },
+        {
+            "name": "Durban South Africa Temple",
+            "image": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/durban-south-africa/1280x800/4-5fcf64b0979ac41f7197d049ea8c4ffad88cd1b4.jpg",
+            "address": "2 Izinga Drive, Izinga Ridge, Umhlanga, KwaZulu-Natal, 4021, South Africa",
+            "phone": "(27) 31-140-0240",
+            "email": "Available via churchofjesuschrist.org" ,
+            "services": "Distribution center nearby",
+            "history": "16 February 2020: Dedicated — dedicatory prayer",
+            "ordinance": "PHASE 3: All living ordinances and limited proxy ordinances",
+            "sessions": "Contact the temple for information about the sessions",
+            "closure": "Contact the temple for information about the sessions" 
+        },
+        {
+            "name": "Freiberg Germany Temple",
+            "image": "https://assets.ldscdn.org/14/12/14126843965ea9acd0b58de44c54cb36eb2086ad/freiberg_germany_temple_lds.jpeg",
+            "address": "Hainichener Strasse 64, 09599 Freiberg, Germany",
+            "phone": "(49) 3731-35960",
+            "email": "Available via churchofjesuschrist.org" ,
+            "services": "Clothing rental available, Distribution center nearby",
+            "history": "29 June 1985: Dedicated — dedicatory prayer, 4 September 2016: Rededicated — dedicatory prayer",
+            "ordinance":"PHASE 3: All living ordinances and limited proxy ordinances",
+            "sessions": "Contact the temple for information about the sessions",
+            "closure": "Contact the temple for information about the sessions"
+        },
+        {
+            "name": "Idaho Falls Idaho Temple",
+            "image": "https://assets.ldscdn.org/90/a0/90a0c0d599f94a2d955930e90fa95b9aa85a5004/idaho_falls_idaho_temple.png",
+            "address": "1000 Memorial Dr, Idaho Falls ID 83402-3410, United States",
+            "phone": "(1) 208-522-7669",
+            "email": "Available via churchofjesuschrist.org" ,
+            "services": "Clothing rental available, Distribution center nearby",
+            "history": "23 September 1945: Dedicated — dedicatory prayer, 4 June 2017: Rededicated — dedicatory prayer",
+            "ordinance": "PHASE 3: All living ordinances and limited proxy ordinances",
+            "sessions": "Contact the temple for information about the sessions",
+            "closure": "Contact the temple for information about the sessions"
+        },
+        {
+            "name": "London England Temple",
+            "image": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/london-england/1280x800/london-england-temple-lds-37802-wallpaper.jpg",
+            "address": "West Park Road, Newchapel, Surrey, England RH7 6HW, United Kingdom",
+            "phone": "(44) 1342 831-400",
+            "email": "Available via churchofjesuschrist.org" ,
+            "services": "Clothing rental available, Patron housing available, Distribution center nearby",
+            "history": "7 September 1958: Dedicated — dedicatory prayer, 18 October 1992: Rededicated — dedicatory prayer",
+            "ordinance": "PHASE 3: All living ordinances and limited proxy ordinances",
+            "sessions": "Contact the temple for information about the sessions",
+            "closure": "Contact the temple for information about the sessions"
+        },
+        {
+            "name": "Manaus Brazil Temple",
+            "image": "https://assets.ldscdn.org/52/fe/52fe2308d72820191ff83768e7ef5ce72dfcc97d/manaus_brazil_temple_lds.png",
+            "address": "Avenida Coronel Texeira #3162, Ponta Negra 69037-000 Manaus - AM, Brazil",
+            "phone": "(55) 92-3212-7270",
+            "email": "Available via churchofjesuschrist.org" ,
+            "services": "Distribution center nearby",
+            "history": "10 June 2012: Dedicated — dedicatory prayer",
+            "ordinance": "PHASE 3: All living ordinances and limited proxy ordinances",
+            "sessions": "Contact the temple for information about the sessions",
+            "closure": "Contact the temple for information about the sessions"
+        },
+        {
+            "name": "Rome Italy Temple",
+            "image": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/rome-italy/2019/1280x800/6-Rome-Temple-2160338.jpg",
+            "address": "Via di Settebagni 376, Rome RM, Italy",
+            "phone": "(39) 06-9480-5050",
+            "email": "Available via churchofjesuschrist.org" ,
+            "services": "Clothing rental available, Patron housing available, Distribution center nearby",
+            "history": "10 March 2019: Dedicated — dedicatory prayer",
+            "ordinance": "PHASE 3: All living ordinances and limited proxy ordinances",
+            "sessions": "Contact the temple for information about the sessions",
+            "closure": "Contact the temple for information about the sessions"
+        },
+        {
+            "name": "Sapporo Japan Temple",
+            "image": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/sapporo-japan/1280x800/sapporo-japan-exterior-day-1744806.jpg",
+            "address": "1-6-1 Oyachi-Nishi, Atsubetsu-ku Sapporo, Hokkaido 004-0042, Japan",
+            "phone": "(81) 11-890-8120",
+            "email": "Available via churchofjesuschrist.org" ,
+            "services": "Distribution center nearby",
+            "history": "21 August 2016: Dedicated — dedicatory prayer",
+            "ordinance": "PHASE 3: All living ordinances and limited proxy ordinances",
+            "sessions": "Contact the temple for information about the sessions",
+            "closure": "Contact the temple for information about the sessions"
+        },
+        {
+            "name": "Toronto Ontario Temple",
+            "image": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/toronto-ontario/1280x800/toronto-temple-lds-854102-wallpaper.jpg",
+            "address": "10060 Bramalea Rd, Brampton ON L6R 1A1, Canada",
+            "phone": "(1) 905-799-1122",
+            "email": "Available via churchofjesuschrist.org" ,
+            "services": "Clothing rental available, Distribution center nearby",
+            "history": "25 August 1990: Dedicated — dedicatory prayer",
+            "ordinance": "PHASE 3: All living ordinances and limited proxy ordinances",
+            "sessions": "Contact the temple for information about the sessions",
+            "closure": "Contact the temple for information about the sessions"
+        }
+    ]
+}
