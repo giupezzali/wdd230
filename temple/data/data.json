@@ -10,7 +10,8 @@
             "history": "28 October 2018: Dedicated — dedicatory prayer",
             "ordinance": "PHASE 3: All living ordinances and limited proxy ordinances",
             "sessions": "Contact the temple for information about the sessions",
-            "closure": "Contact the temple for information about the sessions"
+            "closure": "Contact the temple for information about the sessions",
+            "website": "https://www.churchofjesuschrist.org/temples/details/concepcion-chile-temple?lang=eng"
         },
         {
             "name": "Córdoba Argentina Temple",
@@ -22,7 +23,8 @@
             "history": "17 May 2015: Dedicated — dedicatory prayer",
             "ordinance":"PHASE 3: All living ordinances and limited proxy ordinances",
             "sessions": "Contact the temple for information about the sessions",
-            "closure":"Contact the temple for information about the sessions" 
+            "closure":"Contact the temple for information about the sessions",
+            "website": "https://www.churchofjesuschrist.org/temples/details/cordoba-argentina-temple?lang=eng" 
         },
         {
             "name": "Durban South Africa Temple",
@@ -34,7 +36,8 @@
             "history": "16 February 2020: Dedicated — dedicatory prayer",
             "ordinance": "PHASE 3: All living ordinances and limited proxy ordinances",
             "sessions": "Contact the temple for information about the sessions",
-            "closure": "Contact the temple for information about the sessions" 
+            "closure": "Contact the temple for information about the sessions",
+            "website": "https://www.churchofjesuschrist.org/temples/details/durban-south-africa-temple?lang=eng" 
         },
         {
             "name": "Freiberg Germany Temple",
@@ -46,7 +49,8 @@
             "history": "29 June 1985: Dedicated — dedicatory prayer, 4 September 2016: Rededicated — dedicatory prayer",
             "ordinance":"PHASE 3: All living ordinances and limited proxy ordinances",
             "sessions": "Contact the temple for information about the sessions",
-            "closure": "Contact the temple for information about the sessions"
+            "closure": "Contact the temple for information about the sessions",
+            "website": "https://www.churchofjesuschrist.org/temples/details/freiberg-germany-temple?lang=eng"
         },
         {
             "name": "Idaho Falls Idaho Temple",
@@ -58,7 +62,8 @@
             "history": "23 September 1945: Dedicated — dedicatory prayer, 4 June 2017: Rededicated — dedicatory prayer",
             "ordinance": "PHASE 3: All living ordinances and limited proxy ordinances",
             "sessions": "Contact the temple for information about the sessions",
-            "closure": "Contact the temple for information about the sessions"
+            "closure": "Contact the temple for information about the sessions",
+            "website": "https://www.churchofjesuschrist.org/temples/details/idaho-falls-idaho-temple?lang=eng"
         },
         {
             "name": "London England Temple",
@@ -70,7 +75,8 @@
             "history": "7 September 1958: Dedicated — dedicatory prayer, 18 October 1992: Rededicated — dedicatory prayer",
             "ordinance": "PHASE 3: All living ordinances and limited proxy ordinances",
             "sessions": "Contact the temple for information about the sessions",
-            "closure": "Contact the temple for information about the sessions"
+            "closure": "Contact the temple for information about the sessions",
+            "website": "https://www.churchofjesuschrist.org/temples/details/london-england-temple?lang=eng"
         },
         {
             "name": "Manaus Brazil Temple",
@@ -82,7 +88,8 @@
             "history": "10 June 2012: Dedicated — dedicatory prayer",
             "ordinance": "PHASE 3: All living ordinances and limited proxy ordinances",
             "sessions": "Contact the temple for information about the sessions",
-            "closure": "Contact the temple for information about the sessions"
+            "closure": "Contact the temple for information about the sessions",
+            "website": "https://www.churchofjesuschrist.org/temples/details/manaus-brazil-temple?lang=eng"
         },
         {
             "name": "Rome Italy Temple",
@@ -94,7 +101,8 @@
             "history": "10 March 2019: Dedicated — dedicatory prayer",
             "ordinance": "PHASE 3: All living ordinances and limited proxy ordinances",
             "sessions": "Contact the temple for information about the sessions",
-            "closure": "Contact the temple for information about the sessions"
+            "closure": "Contact the temple for information about the sessions",
+            "website": "https://www.churchofjesuschrist.org/temples/details/rome-italy-temple?lang=eng"
         },
         {
             "name": "Sapporo Japan Temple",
@@ -106,7 +114,8 @@
             "history": "21 August 2016: Dedicated — dedicatory prayer",
             "ordinance": "PHASE 3: All living ordinances and limited proxy ordinances",
             "sessions": "Contact the temple for information about the sessions",
-            "closure": "Contact the temple for information about the sessions"
+            "closure": "Contact the temple for information about the sessions",
+            "website": "https://www.churchofjesuschrist.org/temples/details/sapporo-japan-temple?lang=eng"
         },
         {
             "name": "Toronto Ontario Temple",
@@ -118,7 +127,8 @@
             "history": "25 August 1990: Dedicated — dedicatory prayer",
             "ordinance": "PHASE 3: All living ordinances and limited proxy ordinances",
             "sessions": "Contact the temple for information about the sessions",
-            "closure": "Contact the temple for information about the sessions"
+            "closure": "Contact the temple for information about the sessions",
+            "website": "https://www.churchofjesuschrist.org/temples/details/toronto-ontario-temple?lang=eng"
         }
     ]
 }
