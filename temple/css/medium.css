@@ -92,6 +92,41 @@
         grid-column: 3/4;
     }
     
+    /* ------------------Reservation--------------------- */
 
+    form {
+        padding: 1em;
+        margin: 1em;
+        background-image: URL('https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/kansas-city-missouri/1280x800/kansas-city-temple-lds-998169-wallpaper.jpg');
+        grid-template-columns: 1fr 1fr;
+      }
+      form fieldset { background: rgba(245, 245, 245, 0.3)}
+      form fieldset.p-info, .r-info {
+          padding: 1.3em;
+      }
+
+      #submitBtn {
+          grid-column: 2/3;
+      }  
+      
+      #submitBtn:hover {
+        background-color: #292929;
+        color: #FDF9ED;
+      }
+
+      .confirmation {
+        display: grid;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+      }
+
+      .confirmation img {
+          display: block;
+          width: 40%; 
+      }
+      
+      
 
 }
