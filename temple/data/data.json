@@ -14,45 +14,6 @@
             "website": "https://www.churchofjesuschrist.org/temples/details/concepcion-chile-temple?lang=eng"
         },
         {
-            "name": "Córdoba Argentina Temple",
-            "image": "https://assets.ldscdn.org/9f/5b/9f5b9de02ebec05c3a4b5e97bc8d1c695c606bf3/cordoba_argentina_temples_buildings.jpeg",
-            "address": "Av. Pedro Simón Laplace 5637, X5021 FPO, Córdoba",
-            "phone": "(54) 354-340-6200",
-            "email": "Available via churchofjesuschrist.org",
-            "services": "Distribution center nearby",
-            "history": "17 May 2015: Dedicated — dedicatory prayer",
-            "ordinance":"PHASE 3: All living ordinances and limited proxy ordinances",
-            "sessions": "Contact the temple for information about the sessions",
-            "closure":"Contact the temple for information about the sessions",
-            "website": "https://www.churchofjesuschrist.org/temples/details/cordoba-argentina-temple?lang=eng" 
-        },
-        {
-            "name": "Durban South Africa Temple",
-            "image": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/durban-south-africa/1280x800/4-5fcf64b0979ac41f7197d049ea8c4ffad88cd1b4.jpg",
-            "address": "2 Izinga Drive, Izinga Ridge, Umhlanga, KwaZulu-Natal, 4021, South Africa",
-            "phone": "(27) 31-140-0240",
-            "email": "Available via churchofjesuschrist.org",
-            "services": "Distribution center nearby",
-            "history": "16 February 2020: Dedicated — dedicatory prayer",
-            "ordinance": "PHASE 3: All living ordinances and limited proxy ordinances",
-            "sessions": "Contact the temple for information about the sessions",
-            "closure": "Contact the temple for information about the sessions",
-            "website": "https://www.churchofjesuschrist.org/temples/details/durban-south-africa-temple?lang=eng" 
-        },
-        {
-            "name": "Freiberg Germany Temple",
-            "image": "https://assets.ldscdn.org/14/12/14126843965ea9acd0b58de44c54cb36eb2086ad/freiberg_germany_temple_lds.jpeg",
-            "address": "Hainichener Strasse 64, 09599 Freiberg, Germany",
-            "phone": "(49) 3731-35960",
-            "email": "Available via churchofjesuschrist.org" ,
-            "services": "Clothing rental available, Distribution center nearby",
-            "history": "29 June 1985: Dedicated — dedicatory prayer, 4 September 2016: Rededicated — dedicatory prayer",
-            "ordinance":"PHASE 3: All living ordinances and limited proxy ordinances",
-            "sessions": "Contact the temple for information about the sessions",
-            "closure": "Contact the temple for information about the sessions",
-            "website": "https://www.churchofjesuschrist.org/temples/details/freiberg-germany-temple?lang=eng"
-        },
-        {
             "name": "Idaho Falls Idaho Temple",
             "image": "https://assets.ldscdn.org/90/a0/90a0c0d599f94a2d955930e90fa95b9aa85a5004/idaho_falls_idaho_temple.png",
             "address": "1000 Memorial Dr, Idaho Falls ID 83402-3410, United States",
@@ -103,19 +64,6 @@
             "sessions": "Contact the temple for information about the sessions",
             "closure": "Contact the temple for information about the sessions",
             "website": "https://www.churchofjesuschrist.org/temples/details/rome-italy-temple?lang=eng"
-        },
-        {
-            "name": "Sapporo Japan Temple",
-            "image": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/sapporo-japan/1280x800/sapporo-japan-exterior-day-1744806.jpg",
-            "address": "1-6-1 Oyachi-Nishi, Atsubetsu-ku Sapporo, Hokkaido 004-0042, Japan",
-            "phone": "(81) 11-890-8120",
-            "email": "Available via churchofjesuschrist.org" ,
-            "services": "Distribution center nearby",
-            "history": "21 August 2016: Dedicated — dedicatory prayer",
-            "ordinance": "PHASE 3: All living ordinances and limited proxy ordinances",
-            "sessions": "Contact the temple for information about the sessions",
-            "closure": "Contact the temple for information about the sessions",
-            "website": "https://www.churchofjesuschrist.org/temples/details/sapporo-japan-temple?lang=eng"
         },
         {
             "name": "Toronto Ontario Temple",

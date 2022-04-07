@@ -19,11 +19,13 @@
 </head>
 <body>
     <header id="sticky-header">
-        <picture class="logo">
-            <source srcset="images/logo-medium.webp" media="(min-width:559px) and (max-width: 1023px)">
-            <source srcset="images/logo-large.webp" media="(min-width:1024px)">
-            <img src="images/logo-small.webp" alt="temple Inn & Suits Logo">
-        </picture>
+        <a href="index.html">
+            <picture class="logo">
+                <source srcset="images/logo-medium.webp" media="(min-width:559px) and (max-width: 1023px)">
+                <source srcset="images/logo-large.webp" media="(min-width:1024px)">
+                <img src="images/logo-small.webp" alt="temple Inn & Suits Logo">
+            </picture>
+        </a>
 
         <section class="social">
             <a href="www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
@@ -46,7 +48,7 @@
     </header>
     <main class="reservation-main">
         <h2>Make Your Reservation</h2>
-        <form method="get" action="confirmation.html">
+        <form class="reservation-form" method="get" action="confirmation.html">
             <fieldset class="r-info"> 
                 <legend>RESERVATION INFORMATION</legend>
                 <label>City* <br><input type="text" name="city" id="city" required></label><br><br>
@@ -90,6 +92,7 @@
             <a href="instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>  
         </section> 
         <p>&copy;<span id="year"></span> Temple Inn & Suites | Last Modification: <span id="updated"></span></p>
+        <p><a href="attribution.html">Attributions</a></p>
     </footer>
     <script src="js/main.js"></script>
 
