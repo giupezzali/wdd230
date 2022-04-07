@@ -55,7 +55,6 @@
   }
   div.daily {
     grid-column: 1/6;
-    background-color: lightcyan;
     display: flex;
   }
 

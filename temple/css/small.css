@@ -148,7 +148,7 @@ footer a {
   text-align: center;
   border: 2px solid #292929;
   padding: 1em;
-  margin: 1em;
+  margin: .5em;
 }
 
 /*temple Section ---------------------------------*/
@@ -293,6 +293,7 @@ form fieldset.p-info {
   margin: 2em 0;
   border: 2px solid #FFD700;
 }
+
 .wedding-img{
   display: none;
 }
@@ -383,3 +384,4 @@ textarea:focus,
 select:focus {
 background-color: rgb(225, 243, 250);
 }
+.quote3{font-size: 1.2em;}

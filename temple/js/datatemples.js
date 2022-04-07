@@ -22,8 +22,6 @@ function displaytemples(temple) {
     let services = document.createElement('p');
     let history = document.createElement('p');
     let ordinances = document.createElement('p');
-    let sessions = document.createElement('p');
-    let closure = document.createElement('p');
     let website = document.createElement('p');
     
     image.setAttribute('src', `${temple.image}`);
@@ -39,8 +37,6 @@ function displaytemples(temple) {
     services.textContent = `Services: ${temple.services}`;
     history.textContent = `History: ${temple.history}`;
     ordinances.textContent = `Ordinance Schedule: ${temple.ordinance}`;
-    sessions.textContent = `Session schedule: ${temple.sessions}`;
-    closure.textContent = `Closure schedule: ${temple.closure}`;
     website.innerHTML = `<a target="_blank" href="${temple.website}">Learn More</a>`;
 
   
@@ -52,8 +48,6 @@ function displaytemples(temple) {
     card.appendChild(services);
     card.appendChild(history);
     card.appendChild(ordinances);
-    card.appendChild(sessions);
-    card.appendChild(closure);
     card.appendChild(website);
 
     cards.appendChild(card);
