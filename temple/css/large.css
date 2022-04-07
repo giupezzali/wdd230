@@ -50,6 +50,14 @@
   .contact-sec {
     grid-column: 5/6;
   }
+  .index-main h2 {
+    grid-column: 1/6;
+  }
+  div.daily {
+    grid-column: 1/6;
+    background-color: lightcyan;
+    display: flex;
+  }
 
   /* ----------------------------services --------------------*/
   .services-main {

@@ -3,26 +3,24 @@ const apiURL = 'https://api.openweathermap.org/data/2.5/onecall?lat=38.9807&lon=
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
-    
-  console.log(jsObject);
   
-    let currentTemp = document.querySelector('#current-temp');
-  let humidity = document.querySelector('#hum');
-    const iconsrc= `https://openweathermap.org/img/w/${jsObject.current.weather[0].icon}.png`;
-    let desc = jsObject.current.weather[0].description;
-    const caption = document.querySelector('figcaption');
+      let currentTemp = document.querySelector('#current-temp');
+      let humidity = document.querySelector('#hum');
+      const iconsrc= `https://openweathermap.org/img/w/${jsObject.current.weather[0].icon}.png`;
+      let desc = jsObject.current.weather[0].description;
+      const caption = document.querySelector('figcaption');
   
-  const alert = document.getElementById('#weather-alert');
+
     
 
-    currentTemp.textContent = jsObject.current.temp; 
-  humidity.textContent = jsObject.current.humidity;   
+      currentTemp.textContent = jsObject.current.temp; 
+      humidity.textContent = jsObject.current.humidity;   
   
-    // display the weather description (alt message)
-    caption.innerHTML = desc;
+        // display the weather description (alt message)
+      caption.innerHTML = desc;
 
-    document.querySelector('#icon-src').textContent = iconsrc;
-    document.querySelector('#weathericon').setAttribute('src', iconsrc);
-    document.querySelector('#weathericon').setAttribute('alt', desc);
-    document.querySelector('figcaption').textContent = desc;
+      document.querySelector('#icon-src').textContent = iconsrc;
+      document.querySelector('#weathericon').setAttribute('src', iconsrc);
+      document.querySelector('#weathericon').setAttribute('alt', desc);
+      document.querySelector('figcaption').textContent = desc;
 });
