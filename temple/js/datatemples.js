@@ -1,9 +1,10 @@
 const requestURL = 'https://giupezzali.github.io/wdd230/temple/data/data.json';
-const cards = document.querySelector('.templesd')
+
+const cards = document.querySelector('.cards')
 
 fetch(requestURL)
     .then(function (response) {
-        return response.json();
+        return response.json()
     })
     .then(function (jsonObject) {
         console.table(jsonObject);
@@ -11,46 +12,30 @@ fetch(requestURL)
         temples.forEach(displaytemples);
  });
 
-
-function displaytemples(temple) {
-    let card = document.createElement('div');
-    let name = document.createElement('h2');
-    let image = document.createElement('img');
-    let address = document.createElement('p');
-    let phone = document.createElement('p');
-    let email = document.createElement('p');
-    let services = document.createElement('p');
-    let history = document.createElement('p');
-    let ordinances = document.createElement('p');
-    let website = document.createElement('p');
+function displaytemples(temple){
+  let card = document.createElement('div');
+  card.innerHTML = `<div class="item">
+  <div class="img">
+    <div class="like"><i class="fa fa-heart" aria-hidden="true"></i></div></a>
+    <div class="img-content">
+      <img src="${temple.image}" alt="${temple.name}'s image" loading="lazy">
+    </div>
+  </div>
+  <div class="text-container">
+    <h2>${temple.name}</h2>
+    <div class="content">
+      <p>PHONE: ${temple.phone}</p>
+      <p>EMAIL: ${temple.email}</p>
+      <p>SERVICES: ${temple.services}</p>
+      <p>HISTORY: ${temple.history}</p>
+     
+      <p> ORDINANCES:  ${temple.ordinance}</p>
+    </div>
+    <div class="footer">
+      <h3><a href="${temple.website}">details ...</a></h3>
+    </div>   
+  </div>
+</div>`
     
-    image.setAttribute('src', `${temple.image}`);
-    image.setAttribute('alt', `${temple.name}'s image`);
-    image.setAttribute('loading', 'lazy');
-    image.setAttribute
-  
-
-    name.textContent = `${temple.name}`;
-    address.textContent = `Address: ${temple.address}`;
-    phone.textContent = `Telephone: ${temple.phone}`;
-    email.textContent = `Email ${temple.email}`;
-    services.textContent = `Services: ${temple.services}`;
-    history.textContent = `History: ${temple.history}`;
-    ordinances.textContent = `Ordinance Schedule: ${temple.ordinance}`;
-    website.innerHTML = `<a target="_blank" href="${temple.website}">Learn More</a>`;
-
-  
-    card.appendChild(name);
-    card.appendChild(image);
-    card.appendChild(address);
-    card.appendChild(phone);
-    card.appendChild(email);
-    card.appendChild(services);
-    card.appendChild(history);
-    card.appendChild(ordinances);
-    card.appendChild(website);
-
     cards.appendChild(card);
-
 }
-

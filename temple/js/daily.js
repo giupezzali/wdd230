@@ -19,10 +19,9 @@ function showWeather(data){
         <img src="http://openweathermap.org/img/wn/${day.weather[0].icon}@2x.png" alt="${day.weather[0].description}" id="weathericon">
         <div class="card-data">
         <h3 class="card-name">${day.weather[0].description}</h3>
-        <p class="card-info">${day.temp.max}&deg;F - ${day.temp.min}&deg;F</p>
+        <p class="card-info">${day.temp.max}°F - ${day.temp.min}°F</p>
         </div>
         </div>
         </div>`} 
-    })
-    .join();
-}
+    }) .join();
+};

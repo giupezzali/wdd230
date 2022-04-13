@@ -23,7 +23,7 @@
     <title> Home | Temple Inn & Suites</title>
 </head>
 <body>
-    <header>
+    <header id="sticky-header">
         <a href="index.html">
             <picture class="logo">
                 <source srcset="images/logo-medium.webp" media="(min-width:559px) and (max-width: 1023px)">
@@ -65,6 +65,36 @@
             </section>
         </div>
 
+        <h2 class="quote">"There are places where one stays, and places that remain in one."</h2>
+
+        <section class="news">
+            <h2>Temples News</h2>
+            <p>"On March 15, 2022, the First Presidency announced that  temples throughout the world will gradually return to more normal operations, including the elimination of face masks and capacity restrictions" Source: <a href="https://newsroom.churchofjesuschrist.org/article/first-presidency-limited-reopening-temples">https://www.churchofjesuschrist.org</a></p>
+            <p>Remember to take all COVID precautions. <strong>Take care of yourself and your family.</strong></p>
+        </section>
+        <img class="news-img" src="https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/salt-lake-city-utah/1280x800/salt-lake-temple-661115-door-knob.jpg" alt="salt lake temple door knob" loading="lazy">
+
+        <section class="contact-sec">
+            <h2>Don't hesitate to contact us!</h2>
+            <p>We are base in <a href="#">Bethesda, Maryland</a>.</p><br>
+            <p>Contact us via Phone number: <br><a href="Phone:1-60X-XXX-XXXX"> 1-60X-XXX-XXXX </a></p><br>
+            <p>If you want to know more about us or how to contact us, click the button below.</p>
+             <div><a href="#" class="contact-btn">Learn More</a></div>
+        </section>
+
+        <!-- <img class="consec-img" src="https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/idaho-falls-idaho/2019/1280x800/13-Idaho-Falls-Temple-1908690.jpg" alt="13-Idaho Falls Temple" loading="lazy"> -->
+
+        <section class="current-weather">
+            <h2>Current weather</h2>
+            <h3>Bethesda, Maryland</h3>
+            <figure><img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather description" id="weathericon"/>    
+            <figcaption></figcaption></figure>
+            <p><span id="current-temp"></span> &deg;F</p>
+            <p>Humidity <span id="hum"></span> %</p>        
+        </section>
+
+        <!-- <img class="nau-img" src="https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/nauvoo-illinois/1280x800/nauvoo-temple-windows-756502-wallpaper.jpg" alt="nauvoo temple windows" loading="lazy"> -->
+
         <section class="campinas">
             <h2>Campinas Brazil Temple</h2>
             <a href="https://www.churchofjesuschrist.org/temples/details/campinas-brazil-temple?lang=eng"> <img src="https://assets.ldscdn.org/33/cb/33cb73d045a401cfc3d837910eac29ab672ae74c/campinas_brazil_temple_lds.jpeg" alt="Campinas Brazil Temple front view" loading="lazy"></a>
@@ -81,25 +111,9 @@
                 Distribution center nearby</p>
             <h4><a href="https://www.churchofjesuschrist.org/temples/details/campinas-brazil-temple?lang=eng">More Info...</a></h4>
         </section>
-
-        <section class="current-weather">
-            <h2>Current weather</h2>
-            <h3>Bethesda, Maryland</h3>
-            <figure><img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather description" id="weathericon"/>    
-            <figcaption></figcaption></figure>
-            <p><span id="current-temp"></span> &deg;F</p>
-            <p>Humidity <span id="hum"></span> %</p>        
-        </section>
-
-        <section class="contact-sec">
-            <h2>Don't hesitate to contact us!</h2>
-            <p>We are base in <a href="#">Bethesda, Maryland</a>.</p><br>
-            <p>Contact us via Phone number: <br><a href="Phone:1-60X-XXX-XXXX"> 1-60X-XXX-XXXX </a></p><br>
-            <p>If you want to know more about us or how to contact us, click the button below.</p>
-             <div><a href="#" class="contact-btn">Learn More</a></div>
-        </section>
         
-        <h2>3 days Weather</h2>
+        
+        <h2 class="dailyh">3 days Weather</h2>
         <div class="daily"></div>
 
     </main>

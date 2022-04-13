@@ -20,6 +20,7 @@ main h2 {text-align: center;}
   position: sticky;
   position: -webkit-sticky;
   top: 0;
+  z-index: 3;
 }
 
 body {
@@ -110,6 +111,11 @@ footer a {
 .index-main {
   display: grid;
 }
+.quote {
+  padding: 1em;
+  margin: 1.2em auto;
+  font-style: italic;
+}
 
 /* hero ------------------ */
 .herodiv{
@@ -139,6 +145,16 @@ footer a {
   color: #141414;
 }
 
+/* --------news-------- */
+.news-img {
+  max-width: 80%;
+  height: auto;
+  margin: 1em auto;
+  border: 1px solid #FFD700;
+}
+
+/* -----daily------ */
+
 .index-main div.daily {
   margin: 0 auto;
 }
@@ -149,20 +165,30 @@ footer a {
   border: 2px solid #292929;
   padding: 1em;
   margin: .5em;
+  border-radius: 5px;
 }
 
-/*temple Section ---------------------------------*/
-.campinas, .contact-sec, .current-weather {
+.contact-sec, .news, .current-weather {
+  padding: 1em;
+  margin: 1em auto;
+  min-width: 280px;
+  max-width: 300px; 
+  text-align: center;
+  border-radius: 5px;
+}
+
+/*temple Section ------------*/
+.campinas {
   border: 1px solid #292929;
   padding: 1em;
   margin: 1em auto;
   min-width: 280px;
-  max-width: 300px;
+  max-width: 300px; 
   text-align: center;
   border-radius: 5px;
 }
 .campinas img {
- max-width: 90%;
+ max-width: 90%;  
  height: auto;
  border: 2px solid #FFD700;
  box-shadow: 0px 0px 30px #FFED85;
@@ -202,26 +228,85 @@ a.contact-btn {
 
 /* -------------------------------------Temples-------------------- */
 
-.templesd {
+.cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px,  1fr));
-  grid-gap: 1.2em;
+  grid-template-columns: repeat(auto-fit, minmax(300px,  1fr));
+  grid-gap: 1.5em;
 }
 
-.templesd div {
-  background-color: #F5F5F5;
+.cards a {
+  text-decoration: none;
+  color: #000;
+}
+
+.cards a:hover {
+  color: #fff;
+}
+.item {
   width: 300px;
-  box-shadow: 0 0 16px #292929;
-  padding: 1em;
-  text-align: center;
-}
-.templesd div img {
-  max-width: 280px;
-  margin: 0;
-  border: 2px solid #FFD700;
-  box-shadow: 0px 0px 30px #ffed85;
+  height: 650px;
+  background: whitesmoke;
+  position: relative;
+  box-shadow: 0 0 30px #292929;
+  border-radius: 20px;
+  margin: 1em auto;
 }
 
+.img-content img{
+  width: 100%;
+  height: 100%;
+  border-radius: 20px 20px 0 0;
+}
+
+.like {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: red;
+  border-radius: 50%;
+  color: #fff;
+  right: 20px;
+  top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.like:hover {
+  transform: scale(1.2);
+}
+
+.text-container {
+  background-color: #F5F5F5;
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+  box-shadow: -3px -10px 10px rgba(0, 0, 0, 0.3);
+  padding: 1em;
+  border-radius: 0 0 20px 20px;
+}
+
+.footer {
+  padding: .1em;
+  display: flex;
+  float: right;
+}
+
+.footer h3 {
+  text-align: center;
+  padding: 1em 2em;
+  border-radius: 20px;
+  border: 1px solid #FFD700;
+  cursor: pointer;
+  font-size: .9rem;
+  background-color: #eee;
+}
+
+.footer h3:hover, .footer h3:hover a {
+  background-color: #FFD700;
+  color: #686868;
+}
 /* ---------------Reservation-----------------------------  */
 
 form, .services-main ul li {
